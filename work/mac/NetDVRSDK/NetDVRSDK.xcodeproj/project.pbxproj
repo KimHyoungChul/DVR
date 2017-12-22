@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		127A0C86156DD9740035EE46 /* GlobalDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 127A0C85156DD9740035EE46 /* GlobalDef.h */; };
+		12CC5FB61563C16C00EC26DF /* AudioStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F831563C16C00EC26DF /* AudioStream.cpp */; };
+		12CC5FB71563C16C00EC26DF /* AudioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F841563C16C00EC26DF /* AudioStream.h */; };
+		12CC5FB81563C16C00EC26DF /* common_dump.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F851563C16C00EC26DF /* common_dump.h */; };
+		12CC5FB91563C16C00EC26DF /* DeviceStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F861563C16C00EC26DF /* DeviceStream.cpp */; };
+		12CC5FBA1563C16C00EC26DF /* DeviceStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F871563C16C00EC26DF /* DeviceStream.h */; };
+		12CC5FBB1563C16C00EC26DF /* DVRSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F881563C16C00EC26DF /* DVRSocket.cpp */; };
+		12CC5FBC1563C16C00EC26DF /* DVRSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F891563C16C00EC26DF /* DVRSocket.h */; };
+		12CC5FBD1563C16C00EC26DF /* DvrSpeech.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F8A1563C16C00EC26DF /* DvrSpeech.cpp */; };
+		12CC5FBE1563C16C00EC26DF /* DvrSpeech.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F8B1563C16C00EC26DF /* DvrSpeech.h */; };
+		12CC5FBF1563C16C00EC26DF /* Dvs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F8C1563C16C00EC26DF /* Dvs.cpp */; };
+		12CC5FC01563C16C00EC26DF /* Dvs.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F8D1563C16C00EC26DF /* Dvs.h */; };
+		12CC5FC11563C16C00EC26DF /* DvsPro16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F8E1563C16C00EC26DF /* DvsPro16.cpp */; };
+		12CC5FC21563C16C00EC26DF /* DvsPro16.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F8F1563C16C00EC26DF /* DvsPro16.h */; };
+		12CC5FC31563C16C00EC26DF /* DvssDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F901563C16C00EC26DF /* DvssDefine.h */; };
+		12CC5FC41563C16C00EC26DF /* DvssNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F911563C16C00EC26DF /* DvssNet.h */; };
+		12CC5FC51563C16C00EC26DF /* Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F921563C16C00EC26DF /* Event.cpp */; };
+		12CC5FC61563C16C00EC26DF /* Event.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F931563C16C00EC26DF /* Event.h */; };
+		12CC5FC71563C16C00EC26DF /* Global.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F941563C16C00EC26DF /* Global.cpp */; };
+		12CC5FC81563C16C00EC26DF /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F951563C16C00EC26DF /* Global.h */; };
+		12CC5FC91563C16C00EC26DF /* LocalFilePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F961563C16C00EC26DF /* LocalFilePlayer.cpp */; };
+		12CC5FCA1563C16C00EC26DF /* LocalFilePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F971563C16C00EC26DF /* LocalFilePlayer.h */; };
+		12CC5FCB1563C16C00EC26DF /* Lock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F981563C16C00EC26DF /* Lock.cpp */; };
+		12CC5FCC1563C16C00EC26DF /* Lock.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F991563C16C00EC26DF /* Lock.h */; };
+		12CC5FCD1563C16C00EC26DF /* macro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F9A1563C16C00EC26DF /* macro.cpp */; };
+		12CC5FCE1563C16C00EC26DF /* macro.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F9B1563C16C00EC26DF /* macro.h */; };
+		12CC5FCF1563C16C00EC26DF /* NetDvrApi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F9C1563C16C00EC26DF /* NetDvrApi.cpp */; };
+		12CC5FD01563C16C00EC26DF /* NetDvrApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F9D1563C16C00EC26DF /* NetDvrApi.h */; };
+		12CC5FD11563C16C00EC26DF /* PESPacketHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5F9E1563C16C00EC26DF /* PESPacketHead.cpp */; };
+		12CC5FD21563C16C00EC26DF /* PESPacketHead.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5F9F1563C16C00EC26DF /* PESPacketHead.h */; };
+		12CC5FD31563C16C00EC26DF /* PSFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5FA01563C16C00EC26DF /* PSFile.cpp */; };
+		12CC5FD41563C16C00EC26DF /* PSFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FA11563C16C00EC26DF /* PSFile.h */; };
+		12CC5FD51563C16C00EC26DF /* PSWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5FA21563C16C00EC26DF /* PSWriter.cpp */; };
+		12CC5FD61563C16C00EC26DF /* PSWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FA31563C16C00EC26DF /* PSWriter.h */; };
+		12CC5FD71563C16C00EC26DF /* RemoteConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5FA41563C16C00EC26DF /* RemoteConfig.cpp */; };
+		12CC5FD81563C16C00EC26DF /* RemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FA51563C16C00EC26DF /* RemoteConfig.h */; };
+		12CC5FD91563C16C00EC26DF /* RemoteFilePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5FA61563C16C00EC26DF /* RemoteFilePlayer.cpp */; };
+		12CC5FDA1563C16C00EC26DF /* RemoteFilePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FA71563C16C00EC26DF /* RemoteFilePlayer.h */; };
+		12CC5FDB1563C16C00EC26DF /* RemotePSFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5FA81563C16C00EC26DF /* RemotePSFile.cpp */; };
+		12CC5FDC1563C16C00EC26DF /* RemotePSFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FA91563C16C00EC26DF /* RemotePSFile.h */; };
+		12CC5FDD1563C16C00EC26DF /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FAA1563C16C00EC26DF /* resource.h */; };
+		12CC5FDE1563C16C00EC26DF /* SpeechFifo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5FAB1563C16C00EC26DF /* SpeechFifo.cpp */; };
+		12CC5FDF1563C16C00EC26DF /* SpeechFifo.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FAC1563C16C00EC26DF /* SpeechFifo.h */; };
+		12CC5FE01563C16C00EC26DF /* SpeechSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5FAD1563C16C00EC26DF /* SpeechSocket.cpp */; };
+		12CC5FE11563C16C00EC26DF /* SpeechSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FAE1563C16C00EC26DF /* SpeechSocket.h */; };
+		12CC5FE21563C16C00EC26DF /* StreamFifo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5FAF1563C16C00EC26DF /* StreamFifo.cpp */; };
+		12CC5FE31563C16C00EC26DF /* StreamFifo.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FB01563C16C00EC26DF /* StreamFifo.h */; };
+		12CC5FE41563C16C00EC26DF /* StreamSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5FB11563C16C00EC26DF /* StreamSocket.cpp */; };
+		12CC5FE51563C16C00EC26DF /* StreamSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FB21563C16C00EC26DF /* StreamSocket.h */; };
+		12CC5FE61563C16C00EC26DF /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC5FB31563C16C00EC26DF /* Thread.cpp */; };
+		12CC5FE71563C16C00EC26DF /* Thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FB41563C16C00EC26DF /* Thread.h */; };
+		12CC5FE81563C16C00EC26DF /* VersionDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC5FB51563C16C00EC26DF /* VersionDefine.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		127A0C85156DD9740035EE46 /* GlobalDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobalDef.h; path = ../GlobalDef.h; sourceTree = "<group>"; };
+		12CC5F691563B60F00EC26DF /* libNetDVRSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetDVRSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CC5F831563C16C00EC26DF /* AudioStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioStream.cpp; sourceTree = "<group>"; };
+		12CC5F841563C16C00EC26DF /* AudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStream.h; sourceTree = "<group>"; };
+		12CC5F851563C16C00EC26DF /* common_dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common_dump.h; sourceTree = "<group>"; };
+		12CC5F861563C16C00EC26DF /* DeviceStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeviceStream.cpp; sourceTree = "<group>"; };
+		12CC5F871563C16C00EC26DF /* DeviceStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceStream.h; sourceTree = "<group>"; };
+		12CC5F881563C16C00EC26DF /* DVRSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DVRSocket.cpp; sourceTree = "<group>"; };
+		12CC5F891563C16C00EC26DF /* DVRSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVRSocket.h; sourceTree = "<group>"; };
+		12CC5F8A1563C16C00EC26DF /* DvrSpeech.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DvrSpeech.cpp; sourceTree = "<group>"; };
+		12CC5F8B1563C16C00EC26DF /* DvrSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvrSpeech.h; sourceTree = "<group>"; };
+		12CC5F8C1563C16C00EC26DF /* Dvs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dvs.cpp; sourceTree = "<group>"; };
+		12CC5F8D1563C16C00EC26DF /* Dvs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dvs.h; sourceTree = "<group>"; };
+		12CC5F8E1563C16C00EC26DF /* DvsPro16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DvsPro16.cpp; sourceTree = "<group>"; };
+		12CC5F8F1563C16C00EC26DF /* DvsPro16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvsPro16.h; sourceTree = "<group>"; };
+		12CC5F901563C16C00EC26DF /* DvssDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvssDefine.h; sourceTree = "<group>"; };
+		12CC5F911563C16C00EC26DF /* DvssNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvssNet.h; sourceTree = "<group>"; };
+		12CC5F921563C16C00EC26DF /* Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Event.cpp; sourceTree = "<group>"; };
+		12CC5F931563C16C00EC26DF /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		12CC5F941563C16C00EC26DF /* Global.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Global.cpp; sourceTree = "<group>"; };
+		12CC5F951563C16C00EC26DF /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		12CC5F961563C16C00EC26DF /* LocalFilePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalFilePlayer.cpp; sourceTree = "<group>"; };
+		12CC5F971563C16C00EC26DF /* LocalFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalFilePlayer.h; sourceTree = "<group>"; };
+		12CC5F981563C16C00EC26DF /* Lock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lock.cpp; sourceTree = "<group>"; };
+		12CC5F991563C16C00EC26DF /* Lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lock.h; sourceTree = "<group>"; };
+		12CC5F9A1563C16C00EC26DF /* macro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = macro.cpp; sourceTree = "<group>"; };
+		12CC5F9B1563C16C00EC26DF /* macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		12CC5F9C1563C16C00EC26DF /* NetDvrApi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetDvrApi.cpp; sourceTree = "<group>"; };
+		12CC5F9D1563C16C00EC26DF /* NetDvrApi.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NetDvrApi.h; sourceTree = "<group>"; };
+		12CC5F9E1563C16C00EC26DF /* PESPacketHead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PESPacketHead.cpp; sourceTree = "<group>"; };
+		12CC5F9F1563C16C00EC26DF /* PESPacketHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PESPacketHead.h; sourceTree = "<group>"; };
+		12CC5FA01563C16C00EC26DF /* PSFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PSFile.cpp; sourceTree = "<group>"; };
+		12CC5FA11563C16C00EC26DF /* PSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFile.h; sourceTree = "<group>"; };
+		12CC5FA21563C16C00EC26DF /* PSWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PSWriter.cpp; sourceTree = "<group>"; };
+		12CC5FA31563C16C00EC26DF /* PSWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWriter.h; sourceTree = "<group>"; };
+		12CC5FA41563C16C00EC26DF /* RemoteConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoteConfig.cpp; sourceTree = "<group>"; };
+		12CC5FA51563C16C00EC26DF /* RemoteConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteConfig.h; sourceTree = "<group>"; };
+		12CC5FA61563C16C00EC26DF /* RemoteFilePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoteFilePlayer.cpp; sourceTree = "<group>"; };
+		12CC5FA71563C16C00EC26DF /* RemoteFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteFilePlayer.h; sourceTree = "<group>"; };
+		12CC5FA81563C16C00EC26DF /* RemotePSFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemotePSFile.cpp; sourceTree = "<group>"; };
+		12CC5FA91563C16C00EC26DF /* RemotePSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemotePSFile.h; sourceTree = "<group>"; };
+		12CC5FAA1563C16C00EC26DF /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		12CC5FAB1563C16C00EC26DF /* SpeechFifo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpeechFifo.cpp; sourceTree = "<group>"; };
+		12CC5FAC1563C16C00EC26DF /* SpeechFifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechFifo.h; sourceTree = "<group>"; };
+		12CC5FAD1563C16C00EC26DF /* SpeechSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpeechSocket.cpp; sourceTree = "<group>"; };
+		12CC5FAE1563C16C00EC26DF /* SpeechSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSocket.h; sourceTree = "<group>"; };
+		12CC5FAF1563C16C00EC26DF /* StreamFifo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StreamFifo.cpp; sourceTree = "<group>"; };
+		12CC5FB01563C16C00EC26DF /* StreamFifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamFifo.h; sourceTree = "<group>"; };
+		12CC5FB11563C16C00EC26DF /* StreamSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StreamSocket.cpp; sourceTree = "<group>"; };
+		12CC5FB21563C16C00EC26DF /* StreamSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamSocket.h; sourceTree = "<group>"; };
+		12CC5FB31563C16C00EC26DF /* Thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Thread.cpp; sourceTree = "<group>"; };
+		12CC5FB41563C16C00EC26DF /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		12CC5FB51563C16C00EC26DF /* VersionDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12CC5F661563B60F00EC26DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12CC5F5E1563B60F00EC26DF = {
+			isa = PBXGroup;
+			children = (
+				127A0C85156DD9740035EE46 /* GlobalDef.h */,
+				12CC5F6A1563B60F00EC26DF /* Products */,
+				12CC5F831563C16C00EC26DF /* AudioStream.cpp */,
+				12CC5F841563C16C00EC26DF /* AudioStream.h */,
+				12CC5F851563C16C00EC26DF /* common_dump.h */,
+				12CC5F861563C16C00EC26DF /* DeviceStream.cpp */,
+				12CC5F871563C16C00EC26DF /* DeviceStream.h */,
+				12CC5F881563C16C00EC26DF /* DVRSocket.cpp */,
+				12CC5F891563C16C00EC26DF /* DVRSocket.h */,
+				12CC5F8A1563C16C00EC26DF /* DvrSpeech.cpp */,
+				12CC5F8B1563C16C00EC26DF /* DvrSpeech.h */,
+				12CC5F8C1563C16C00EC26DF /* Dvs.cpp */,
+				12CC5F8D1563C16C00EC26DF /* Dvs.h */,
+				12CC5F8E1563C16C00EC26DF /* DvsPro16.cpp */,
+				12CC5F8F1563C16C00EC26DF /* DvsPro16.h */,
+				12CC5F901563C16C00EC26DF /* DvssDefine.h */,
+				12CC5F911563C16C00EC26DF /* DvssNet.h */,
+				12CC5F921563C16C00EC26DF /* Event.cpp */,
+				12CC5F931563C16C00EC26DF /* Event.h */,
+				12CC5F941563C16C00EC26DF /* Global.cpp */,
+				12CC5F951563C16C00EC26DF /* Global.h */,
+				12CC5F961563C16C00EC26DF /* LocalFilePlayer.cpp */,
+				12CC5F971563C16C00EC26DF /* LocalFilePlayer.h */,
+				12CC5F981563C16C00EC26DF /* Lock.cpp */,
+				12CC5F991563C16C00EC26DF /* Lock.h */,
+				12CC5F9A1563C16C00EC26DF /* macro.cpp */,
+				12CC5F9B1563C16C00EC26DF /* macro.h */,
+				12CC5F9C1563C16C00EC26DF /* NetDvrApi.cpp */,
+				12CC5F9D1563C16C00EC26DF /* NetDvrApi.h */,
+				12CC5F9E1563C16C00EC26DF /* PESPacketHead.cpp */,
+				12CC5F9F1563C16C00EC26DF /* PESPacketHead.h */,
+				12CC5FA01563C16C00EC26DF /* PSFile.cpp */,
+				12CC5FA11563C16C00EC26DF /* PSFile.h */,
+				12CC5FA21563C16C00EC26DF /* PSWriter.cpp */,
+				12CC5FA31563C16C00EC26DF /* PSWriter.h */,
+				12CC5FA41563C16C00EC26DF /* RemoteConfig.cpp */,
+				12CC5FA51563C16C00EC26DF /* RemoteConfig.h */,
+				12CC5FA61563C16C00EC26DF /* RemoteFilePlayer.cpp */,
+				12CC5FA71563C16C00EC26DF /* RemoteFilePlayer.h */,
+				12CC5FA81563C16C00EC26DF /* RemotePSFile.cpp */,
+				12CC5FA91563C16C00EC26DF /* RemotePSFile.h */,
+				12CC5FAA1563C16C00EC26DF /* resource.h */,
+				12CC5FAB1563C16C00EC26DF /* SpeechFifo.cpp */,
+				12CC5FAC1563C16C00EC26DF /* SpeechFifo.h */,
+				12CC5FAD1563C16C00EC26DF /* SpeechSocket.cpp */,
+				12CC5FAE1563C16C00EC26DF /* SpeechSocket.h */,
+				12CC5FAF1563C16C00EC26DF /* StreamFifo.cpp */,
+				12CC5FB01563C16C00EC26DF /* StreamFifo.h */,
+				12CC5FB11563C16C00EC26DF /* StreamSocket.cpp */,
+				12CC5FB21563C16C00EC26DF /* StreamSocket.h */,
+				12CC5FB31563C16C00EC26DF /* Thread.cpp */,
+				12CC5FB41563C16C00EC26DF /* Thread.h */,
+				12CC5FB51563C16C00EC26DF /* VersionDefine.h */,
+			);
+			sourceTree = "<group>";
+		};
+		12CC5F6A1563B60F00EC26DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12CC5F691563B60F00EC26DF /* libNetDVRSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12CC5F671563B60F00EC26DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CC5FB71563C16C00EC26DF /* AudioStream.h in Headers */,
+				12CC5FB81563C16C00EC26DF /* common_dump.h in Headers */,
+				12CC5FBA1563C16C00EC26DF /* DeviceStream.h in Headers */,
+				12CC5FBC1563C16C00EC26DF /* DVRSocket.h in Headers */,
+				12CC5FBE1563C16C00EC26DF /* DvrSpeech.h in Headers */,
+				12CC5FC01563C16C00EC26DF /* Dvs.h in Headers */,
+				12CC5FC21563C16C00EC26DF /* DvsPro16.h in Headers */,
+				12CC5FC31563C16C00EC26DF /* DvssDefine.h in Headers */,
+				12CC5FC41563C16C00EC26DF /* DvssNet.h in Headers */,
+				12CC5FC61563C16C00EC26DF /* Event.h in Headers */,
+				12CC5FC81563C16C00EC26DF /* Global.h in Headers */,
+				12CC5FCA1563C16C00EC26DF /* LocalFilePlayer.h in Headers */,
+				12CC5FCC1563C16C00EC26DF /* Lock.h in Headers */,
+				12CC5FCE1563C16C00EC26DF /* macro.h in Headers */,
+				12CC5FD01563C16C00EC26DF /* NetDvrApi.h in Headers */,
+				12CC5FD21563C16C00EC26DF /* PESPacketHead.h in Headers */,
+				12CC5FD41563C16C00EC26DF /* PSFile.h in Headers */,
+				12CC5FD61563C16C00EC26DF /* PSWriter.h in Headers */,
+				12CC5FD81563C16C00EC26DF /* RemoteConfig.h in Headers */,
+				12CC5FDA1563C16C00EC26DF /* RemoteFilePlayer.h in Headers */,
+				12CC5FDC1563C16C00EC26DF /* RemotePSFile.h in Headers */,
+				12CC5FDD1563C16C00EC26DF /* resource.h in Headers */,
+				12CC5FDF1563C16C00EC26DF /* SpeechFifo.h in Headers */,
+				12CC5FE11563C16C00EC26DF /* SpeechSocket.h in Headers */,
+				12CC5FE31563C16C00EC26DF /* StreamFifo.h in Headers */,
+				12CC5FE51563C16C00EC26DF /* StreamSocket.h in Headers */,
+				12CC5FE71563C16C00EC26DF /* Thread.h in Headers */,
+				12CC5FE81563C16C00EC26DF /* VersionDefine.h in Headers */,
+				127A0C86156DD9740035EE46 /* GlobalDef.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12CC5F681563B60F00EC26DF /* NetDVRSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CC5F6D1563B60F00EC26DF /* Build configuration list for PBXNativeTarget "NetDVRSDK" */;
+			buildPhases = (
+				12CC5F651563B60F00EC26DF /* Sources */,
+				12CC5F661563B60F00EC26DF /* Frameworks */,
+				12CC5F671563B60F00EC26DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetDVRSDK;
+			productName = NetDVRSDK;
+			productReference = 12CC5F691563B60F00EC26DF /* libNetDVRSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12CC5F601563B60F00EC26DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 12CC5F631563B60F00EC26DF /* Build configuration list for PBXProject "NetDVRSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12CC5F5E1563B60F00EC26DF;
+			productRefGroup = 12CC5F6A1563B60F00EC26DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12CC5F681563B60F00EC26DF /* NetDVRSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12CC5F651563B60F00EC26DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CC5FB61563C16C00EC26DF /* AudioStream.cpp in Sources */,
+				12CC5FB91563C16C00EC26DF /* DeviceStream.cpp in Sources */,
+				12CC5FBB1563C16C00EC26DF /* DVRSocket.cpp in Sources */,
+				12CC5FBD1563C16C00EC26DF /* DvrSpeech.cpp in Sources */,
+				12CC5FBF1563C16C00EC26DF /* Dvs.cpp in Sources */,
+				12CC5FC11563C16C00EC26DF /* DvsPro16.cpp in Sources */,
+				12CC5FC51563C16C00EC26DF /* Event.cpp in Sources */,
+				12CC5FC71563C16C00EC26DF /* Global.cpp in Sources */,
+				12CC5FC91563C16C00EC26DF /* LocalFilePlayer.cpp in Sources */,
+				12CC5FCB1563C16C00EC26DF /* Lock.cpp in Sources */,
+				12CC5FCD1563C16C00EC26DF /* macro.cpp in Sources */,
+				12CC5FCF1563C16C00EC26DF /* NetDvrApi.cpp in Sources */,
+				12CC5FD11563C16C00EC26DF /* PESPacketHead.cpp in Sources */,
+				12CC5FD31563C16C00EC26DF /* PSFile.cpp in Sources */,
+				12CC5FD51563C16C00EC26DF /* PSWriter.cpp in Sources */,
+				12CC5FD71563C16C00EC26DF /* RemoteConfig.cpp in Sources */,
+				12CC5FD91563C16C00EC26DF /* RemoteFilePlayer.cpp in Sources */,
+				12CC5FDB1563C16C00EC26DF /* RemotePSFile.cpp in Sources */,
+				12CC5FDE1563C16C00EC26DF /* SpeechFifo.cpp in Sources */,
+				12CC5FE01563C16C00EC26DF /* SpeechSocket.cpp in Sources */,
+				12CC5FE21563C16C00EC26DF /* StreamFifo.cpp in Sources */,
+				12CC5FE41563C16C00EC26DF /* StreamSocket.cpp in Sources */,
+				12CC5FE61563C16C00EC26DF /* Thread.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12CC5F6B1563B60F00EC26DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		12CC5F6C1563B60F00EC26DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		12CC5F6E1563B60F00EC26DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				INSTALL_PATH = usr/local/lib;
+				LLVM_LTO = NO;
+				OTHER_CFLAGS = "-I../PlayerDVR/shared";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12CC5F6F1563B60F00EC26DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				INSTALL_PATH = usr/local/lib;
+				LLVM_LTO = NO;
+				OTHER_CFLAGS = "-I../PlayerDVR/shared";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12CC5F631563B60F00EC26DF /* Build configuration list for PBXProject "NetDVRSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CC5F6B1563B60F00EC26DF /* Debug */,
+				12CC5F6C1563B60F00EC26DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12CC5F6D1563B60F00EC26DF /* Build configuration list for PBXNativeTarget "NetDVRSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CC5F6E1563B60F00EC26DF /* Debug */,
+				12CC5F6F1563B60F00EC26DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12CC5F601563B60F00EC26DF /* Project object */;
+}

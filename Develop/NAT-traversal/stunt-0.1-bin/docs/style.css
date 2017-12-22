@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+a {
+    color: #b31b1b;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(217, 217, 206);
+}
+
+a:hover {
+    border-bottom: 1px solid #b31b1b;
+}
+
+a.img {
+    border-bottom-width: 0px;
+}
+
+a.breadcrumb, a.childpage {
+    color: #222;
+    padding: 5px 30px 5px 30px;
+    border-bottom-width: 0px;
+}
+
+a.breadcrumb:hover, a.childpage:hover {
+    text-decoration: underline;
+}
+
+a.insection {
+    background-color: rgb(217, 217, 206);
+}
+
+img {
+    border-width: 0px
+}
+
+#breadcrumb {
+    font-size: 10px;
+}
+
+#navbar {
+    background-color: #f0eee4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+#outer {
+    background: url('img/header_bg_thick.gif') repeat-x top;
+}
+
+#banner {
+    background: url('img/header.jpg') no-repeat top right;
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+#content {
+    margin-left: 50px;
+    border-left: 1px solid #b31b1b;
+    border-right: 1px solid #b31b1b;
+    border-bottom: 1px solid #b31b1b;
+    padding: 30px;
+    width: 650px;
+}
+
+ol, ul, p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+span.links {
+    font-size: 12px;
+}
+
+
+#menu, #menu h1 {
+    font-size: 12px;
+}
+
+#menu p, #menu ul, #menu ol, #menu h1 {
+    margin: 0px;
+}
+
+#menu {
+    border: 1px solid #b31b1b;
+    float: right;
+    width: 200px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(232, 232, 220);
+}
+
+input, textarea {
+    border: 1px solid #b31b1b;
+    padding-left: 3px;
+}

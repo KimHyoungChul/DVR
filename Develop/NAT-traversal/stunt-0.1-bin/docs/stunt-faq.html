@@ -1,0 +1,97 @@
+
+
+<html>
+
+<head>
+
+<title>STUNT: NAT TCP Behaviour Testing</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+
+<style type="text/css">
+.q {
+    font-weight: bold;
+    display: block;
+}
+
+#faq li {
+    margin-bottom: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="outer"><div id="banner"><div id="logo"><a class="img" href="http://www.cornell.edu"><img src="img/compfac_red.gif"></a></div>
+<div id="navbar"><span class="childpage"><a class="childpage" href="http://nutss.gforge.cis.cornell.edu/index.php">NUTSS</a> <a class="childpage insection" href="index.html">STUNT</a> <a class="childpage" href="http://nutss.gforge.cis.cornell.edu/publications.php">Publications</a> <a class="childpage" href="https://gforge.cis.cornell.edu/projects/nutss/">Project Page</a> <a class="childpage" href="http://gforge.cis.cornell.edu/frs/?group_id=15">Downloads</a></span></div>
+<div id="content">
+        <div id="menu">
+
+        <h1>Software</h1>
+        <ul>
+        <li>Client: <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=6">Windows</a>, <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=4">Linux</a></li>
+        <li>Server: <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=4">Linux</a></li>
+        </ul>
+
+        <h1>Documentation</h1>
+        <ul>
+        <li><a href="stunt-client-installation.html">Running the Client</a></li>
+        <li><a href="stunt-client.html">Client Documentation</a></li>
+        <li><a href="stunt-server.html">Server Documentation</a></li>
+        <li><a href="stunt-faq.html">Frequently Asked Questions</a></li>
+        <li><a href="http://nutss.gforge.cis.cornell.edu/stunt-results.php">Survey Results</a></li>
+        </ul>
+
+        </div>
+        
+<div id="faq">
+<ol>
+
+<li><span class="q">I get the error <code>wpcap.dll</code> not found.</span>
+<span class="a">You need to <a
+href="http://winpcap.polito.it/install/bin/WinPcap_3_1_beta4.exe">install</a>
+WinPcap.</span></li>
+
+<li><span class="q">How do I determine what interfaces I have?</span> <span
+class="a">Pass the command line option <code>-i help</code></span></li>
+
+<li><span class="q">I have multiple network interfaces and STUNT always reports
+an error.</span> <span class="a">Pass the command line option <code>-i
+help</code> to list the interfaces and then execute STUNT with <code>-bftro
+output -i &lt;num&gt;</code> where <code>&lt;num&gt;</code> is the number of the
+interface that connects you to the internet.</span></li>
+
+<li><span class="q">I get the error -- "Need root privileges".</span> <span
+class="a">On Windows, you need to run STUNT while logged in as an
+<i>Administrator</i>. On Linux, you need to run it with an effective user ID of
+0. STUNT needs these privileges since it need to see the packets sent by the
+operating system.</span></li>
+
+<li><span class="q">I see lots of errors. Is something wrong?</span> <span
+class="a">Intermittent errors may occur, if so, try running the client after a
+while. If the error is persistent then there may be a problem. Please run the
+client with the <code>-vv</code> option, redirect the output to a file and
+contact <a href="mailto:saikat%40cs.cornell.edu">saikat&#64;cs.cornell.edu</a>
+with a copy of the output for diagnosis.</span></li>
+
+<li><span class="q">How much CPU time and bandwidth does this use?</span><span
+class="a"> The client uses virtually 0 CPU time since there is negligible
+processing required. It uses less than 0.05 kbps on average since TCP
+connection establishment involves very few packets and very little data is
+transferred between clients and servers.</span></li>
+
+<li><span class="q">The test always errors while testing bindings.</span> <span
+class="a">Some NATs, like Open BSD, enforce TIMED-WAIT state after a connection
+is closed by a RST even if the client operation system doesn't. Try passing the
+command line option <code>--binding-interval 120</code>. This will make the
+test take longer, but it will hopefully succeed.</span></li>
+
+</ol>
+</div>
+
+
+</div>
+</body>
+
+</html>

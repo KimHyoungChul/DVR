@@ -1,0 +1,246 @@
+
+
+<html>
+
+<head>
+
+<title>STUNT: NAT TCP Behaviour Testing</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+
+</head>
+
+<body>
+
+<div id="outer"><div id="banner"><div id="logo"><a class="img" href="http://www.cornell.edu"><img src="img/compfac_red.gif"></a></div>
+<div id="navbar"><span class="childpage"><a class="childpage" href="http://nutss.gforge.cis.cornell.edu/index.php">NUTSS</a> <a class="childpage insection" href="index.html">STUNT</a> <a class="childpage" href="http://nutss.gforge.cis.cornell.edu/publications.php">Publications</a> <a class="childpage" href="https://gforge.cis.cornell.edu/projects/nutss/">Project Page</a> <a class="childpage" href="http://gforge.cis.cornell.edu/frs/?group_id=15">Downloads</a></span></div>
+<div id="content">
+        <div id="menu">
+
+        <h1>Software</h1>
+        <ul>
+        <li>Client: <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=6">Windows</a>, <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=4">Linux</a></li>
+        <li>Server: <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=4">Linux</a></li>
+        </ul>
+
+        <h1>Documentation</h1>
+        <ul>
+        <li><a href="stunt-client-installation.html">Running the Client</a></li>
+        <li><a href="stunt-client.html">Client Documentation</a></li>
+        <li><a href="stunt-server.html">Server Documentation</a></li>
+        <li><a href="stunt-faq.html">Frequently Asked Questions</a></li>
+        <li><a href="http://nutss.gforge.cis.cornell.edu/stunt-results.php">Survey Results</a></li>
+        </ul>
+
+        </div>
+        
+<h1>Current Tests</h1>
+
+The client currently tests TCP port binding properties of the NAT, the NAT's
+packet mangling characteristics, the NAT's filtering or firewalling behaviour
+and checks the timeouts for TCP bindings in various states.
+
+<h2>TCP Port Binding</h2>
+
+<ul>
+
+<li><i>Binding Behaviour</i> -- <i>Independent</i> if the internal endpoint (address and
+port) determines the binding. <i>address dependent</i> or <i>address and port
+dependent</i> if the internal endpoint along with the remote address and
+remote endpoint determine the binding respectively. <i>session
+dependent</i> if each TCP session is allocated a new binding.</li>
+
+<li><i>Binding Delta</i> -- The difference in the binding's port for successive
+connections from the same internal endpoint to different remote endpoints.</li>
+
+<li><i>Hairpining</i> -- Whether or not the NAT correctly routes TCP SYN
+packets from an internal endpoint to the external binding allocated for a
+different internal endpoint.</li>
+
+<li><i>Overloading</i> -- Whether or not the NAT assigns the same binding for
+two different internal endpoints</li>
+
+<li><i>Port number preservation</i> -- Whether or not the external binding has
+the same port as the port of the internal endpoint when possible.</li>
+
+<li><i>Port range preservation</i> -- Whether or not the external binding port
+falls in the same port range as the port of the internal endpoint. The port
+ranges LOW, HIGH and DYNAMIC are defined as 0 - 1023, &gt;= 1024, &gt;= 49152
+respectively.</li>
+
+<li>Port parity preservation -- Whether or not the binding port is even if and
+only if the internal endpoint port is even. Whether or not two internal
+endpoints where the second port is one higher that the first are allocated
+binding ports that have the same relationship.</li>
+
+</ul>
+
+<h2>TCP Packet Mangling</h2>
+
+<ul>
+
+<li><i>TCP Data</i> -- Whether or not the NAT modifies bytes in the TCP payload
+that looks like the binary encoding of an internal endpoint.</li>
+
+<li><i>ICMP Data</i> -- Whether or not the NAT correctly translates
+encapsulated IP packets in the ICMP payload.</li>
+
+<li><i>TCP Sequence number</i> -- Whether or not the NAT advertises a different
+TCP sequence number in the SYN packet than the one advertised by the internal
+host.</li>
+
+<li><i>IP TTL</i> -- Whether or not the NAT increases the IP time-to-live value
+of outbound TCP packets.</li>
+
+
+</ul>
+
+<h2>TCP Packet Filtering</h2>
+
+<ul>
+
+<li><i>Endpoint filtering</i> -- <i>Open</i> if the NAT correctly routes
+incoming unsolicited SYN packets to the host. <i>Independent</i> if the NAT
+routes incoming SYN packets sent from any remote endpoint to the binding for an
+internal endpoint that has established a connection to some remote endpoint.
+<i>Address</i> if the NAT routes incoming SYN packets sent from a remote
+endpoint to the binding for an internal endpoint that has established a
+connection to a the same remote address but a different port. <i>Address and
+port</i> otherwise.</li>
+
+<li>TCP Responses -- Whether the NAT <i>accepts</i> and correctly routes,
+silently <i>drops</i>, generates a TCP RST or <i>reset</i> packet or generates
+an <i>ICMP error</i> in response to various packets addressed to an external
+binding. The situations tested are <i>unsolicited incoming SYN</i> packets
+before a binding is created, <i>SYN packets from the same remote address</i> to
+which the binding is connected, <i>SYN packets from a different remote
+address</i> than the one to which the binding is connected, SYN packets
+received from the remote endpoint <i>after and outgoing SYN</i> to that
+endpoint, after receiving a <i>TCP reset</i> in response to an outgoing SYN,
+after receiving an <i>ICMP TTL exceeded</i> error or <i>ICMP Host
+Unreachable</i> error in response to the outgoing SYN, and incoming SYNACK
+packet instead of the incoming SYN packet in the last four cases.</li>
+
+</ul>
+
+<h2>TCP Binding Timers</h2>
+
+<ul>
+
+<li>TCP Timer -- How long the NAT keeps a binding alive and routes incoming
+packets when the TCP session is in a particular state. The states tested are
+SYN-Sent, Established, Timed-Wait and Closed.</li>
+
+</ul>
+
+<h2>TCP Port Prediction</h2>
+
+<ul>
+
+<li><i>Port prediction rate</i> -- What percentage of the client's attempts to
+predict the external binding for a new TCP stream before it is initiated are
+correct.</li>
+
+</ul>
+
+<h1>Command Line Parameters</h1>
+
+<table cellspacing="5px">
+
+<tr>
+<td>Parameter</td>
+<td>Details</td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>-i, --interface iface</code></td>
+<td><code>iface</code> is the interface to run STUNT on. The list of interfaces can be viewed by passing
+<code>help</code> as the interface. For the <i>overloading</i> test, two interfaces are required both of which
+must be on the same network segment; they can be passed in with multiple <code>-i</code> options. </td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>-p, --port port</code></td>
+<td><code>port</code> is the port on which the STUNT server is running. Default
+is 3478.</td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>-v, --debug</code></td>
+<td>multiple uses increases the debugging verbosity</td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>-b, --test-bindings</code></td>
+<td>perform the binding tests above</td>
+</tr>
+
+
+<tr>
+<td nowrap valign="top"><code>-f, --test-filtering</code></td>
+<td>perform the filtering and packet mangling tests above</td>
+</tr>
+
+
+<tr>
+<td nowrap valign="top"><code>-t, --test-timers</code></td>
+<td>perform the timer tests above</td>
+</tr>
+
+
+<tr>
+<td nowrap valign="top"><code>-r, --test-portpred</code></td>
+<td>perform the port prediction test above</td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>-o, --output file<code></td>
+<td>writes the fingerprint to a file for later use</td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>--timer-syn nsec</code></td>
+<td>the number of seconds the connection should be in SYN-Sent state before the SYNACK is sent.</td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>--timer-estd nsec</code></td>
+<td>the number of seconds the connection should be in established state before a keep-alive ACK is sent.</td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>--timer-fin nsec</code></td>
+<td>the number of seconds the connection should be in timed-wait state before a retransmission of the FIN is sent.</td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>--timer-rst nsec</code></td>
+<td>the number of seconds the connection should be in closed state forced by a RST before a retransmission of the RST is sent.</td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>--timer-portpred nsec</code></td>
+<td>the number of seconds the clients should try to predict ports for. Default is 3600.</td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>--binding-interval nsec</code></td>
+<td>the number of seconds the clients should to wait between successive binding tests. Default is 0. If the binding test
+repeatedly reports an error, for example with Open BSD based NATs, try raising this value to 120.</td>
+</tr>
+
+<tr>
+<td nowrap valign="top"><code>--portpred-interval nsec</code></td>
+<td>the number of seconds to wait between port prediction attempts. Default is 60.</td>
+</tr>
+
+
+</table>
+
+
+
+
+
+</div>
+</body>
+
+</html>

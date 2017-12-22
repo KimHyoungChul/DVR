@@ -1,0 +1,7 @@
+#ifndef _UP_SYS_VERSION_HEADER
+#define _UP_SYS_VERSION_HEADER
+
+/*1.0.9*/
+#define MODULE_VERSION 65545
+
+#endif /*_UP_SYS_VERSION_HEADER*/

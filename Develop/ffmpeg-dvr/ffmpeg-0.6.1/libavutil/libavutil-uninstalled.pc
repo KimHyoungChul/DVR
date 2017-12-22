@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/Users/kelvin/Develop/ffmpeg-dvr/ffmpeg-0.6.1
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 50.15.1
+Requires: 
+Conflicts:
+Libs: ${libdir}/libavutil.a 
+Cflags: -I${includedir}

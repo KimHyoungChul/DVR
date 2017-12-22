@@ -1,0 +1,83 @@
+
+
+<html>
+
+<head>
+
+<title>STUNT: NAT TCP Behaviour Testing</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+
+</head>
+
+<body>
+
+<div id="outer"><div id="banner"><div id="logo"><a class="img" href="http://www.cornell.edu"><img src="img/compfac_red.gif"></a></div>
+<div id="navbar"><span class="childpage"><a class="childpage" href="http://nutss.gforge.cis.cornell.edu/index.php">NUTSS</a> <a class="childpage insection" href="index.html">STUNT</a> <a class="childpage" href="http://nutss.gforge.cis.cornell.edu/publications.php">Publications</a> <a class="childpage" href="https://gforge.cis.cornell.edu/projects/nutss/">Project Page</a> <a class="childpage" href="http://gforge.cis.cornell.edu/frs/?group_id=15">Downloads</a></span></div>
+<div id="content">
+        <div id="menu">
+
+        <h1>Software</h1>
+        <ul>
+        <li>Client: <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=6">Windows</a>, <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=4">Linux</a></li>
+        <li>Server: <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=4">Linux</a></li>
+        </ul>
+
+        <h1>Documentation</h1>
+        <ul>
+        <li><a href="stunt-client-installation.html">Running the Client</a></li>
+        <li><a href="stunt-client.html">Client Documentation</a></li>
+        <li><a href="stunt-server.html">Server Documentation</a></li>
+        <li><a href="stunt-faq.html">Frequently Asked Questions</a></li>
+        <li><a href="http://nutss.gforge.cis.cornell.edu/stunt-results.php">Survey Results</a></li>
+        </ul>
+
+        </div>
+        
+<h1>Compiling the STUNT Server on Linux</h1>
+
+<ol>
+
+<li>Install <code>libpcap</code> and <code>iptables-devel (libiptc.a and
+libipq.a)</code> using your distribution's package manager.</li>
+
+<li><a href="https://gforge.cis.cornell.edu/frs/?group_id=15">Download</a> the
+source archive <code>stunt-0.1-src.tar.bz2</code> and untar it.</li>
+
+<li>Run <code>make stuntd</code> to build the server <code>stuntd</code></li>
+
+</ol>
+
+
+<h1>Command Line Parameters</h1>
+
+<table cellspacing="5px">
+
+<tr>
+<td>Parameter</td>
+<td>Details</td>
+</tr>
+
+<tr> <td nowrap valign="top"><code>-i, --interface iface</code></td>
+<td><code>iface</code> is the interface to run the STUNT server on. The list of
+interfaces can be viewed by passing <code>help</code> as the interface. The
+server requires three interfaces each with a differnt IP address; they can be
+passed in with multiple <code>-i</code> options. On Linux, virtual interfaces
+can be created from a base interface (such as <code>eth0</code>) and be bound
+to an ip address with the command <code>ifconfig eth0:1 &lt;ip&gt; netmask
+&lt;netmask&gt; up</code>.</td> </tr>
+
+<tr> <td nowrap valign="top"><code>-o, --operator string</code></td>
+<td>Identifies the administrator of the server. The argument can, for example,
+be <code>"Cornell STUNT server &lt;stunt-admin@cornell.edu&gt;"</code></td>
+</tr>
+
+</table>
+
+
+
+
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60EA2E014D2A2A600D68E90 /* AudioStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA29314D2A2A600D68E90 /* AudioStream.cpp */; };
+		B60EA2E114D2A2A600D68E90 /* AudioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA29414D2A2A600D68E90 /* AudioStream.h */; };
+		B60EA2E314D2A2A600D68E90 /* common_dump.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA29614D2A2A600D68E90 /* common_dump.h */; };
+		B60EA2E414D2A2A600D68E90 /* DeviceStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA29714D2A2A600D68E90 /* DeviceStream.cpp */; };
+		B60EA2E514D2A2A600D68E90 /* DeviceStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA29814D2A2A600D68E90 /* DeviceStream.h */; };
+		B60EA2E714D2A2A600D68E90 /* DVRSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA29A14D2A2A600D68E90 /* DVRSocket.cpp */; };
+		B60EA2E814D2A2A600D68E90 /* DVRSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA29B14D2A2A600D68E90 /* DVRSocket.h */; };
+		B60EA2EA14D2A2A600D68E90 /* DvrSpeech.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA29D14D2A2A600D68E90 /* DvrSpeech.cpp */; };
+		B60EA2EB14D2A2A600D68E90 /* DvrSpeech.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA29E14D2A2A600D68E90 /* DvrSpeech.h */; };
+		B60EA2ED14D2A2A600D68E90 /* Dvs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2A014D2A2A600D68E90 /* Dvs.cpp */; };
+		B60EA2EE14D2A2A600D68E90 /* Dvs.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2A114D2A2A600D68E90 /* Dvs.h */; };
+		B60EA2F014D2A2A600D68E90 /* DvsPro16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2A314D2A2A600D68E90 /* DvsPro16.cpp */; };
+		B60EA2F114D2A2A600D68E90 /* DvsPro16.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2A414D2A2A600D68E90 /* DvsPro16.h */; };
+		B60EA2F314D2A2A600D68E90 /* DvssDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2A614D2A2A600D68E90 /* DvssDefine.h */; };
+		B60EA2F414D2A2A600D68E90 /* DvssNet.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2A714D2A2A600D68E90 /* DvssNet.h */; };
+		B60EA2F514D2A2A600D68E90 /* Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2A814D2A2A600D68E90 /* Event.cpp */; };
+		B60EA2F614D2A2A600D68E90 /* Event.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2A914D2A2A600D68E90 /* Event.h */; };
+		B60EA2F814D2A2A600D68E90 /* Global.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2AB14D2A2A600D68E90 /* Global.cpp */; };
+		B60EA2F914D2A2A600D68E90 /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2AC14D2A2A600D68E90 /* Global.h */; };
+		B60EA2FC14D2A2A600D68E90 /* LocalFilePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2AF14D2A2A600D68E90 /* LocalFilePlayer.cpp */; };
+		B60EA2FD14D2A2A600D68E90 /* LocalFilePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2B014D2A2A600D68E90 /* LocalFilePlayer.h */; };
+		B60EA2FF14D2A2A600D68E90 /* Lock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2B214D2A2A600D68E90 /* Lock.cpp */; };
+		B60EA30014D2A2A600D68E90 /* Lock.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2B314D2A2A600D68E90 /* Lock.h */; };
+		B60EA30214D2A2A600D68E90 /* macro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2B514D2A2A600D68E90 /* macro.cpp */; };
+		B60EA30314D2A2A600D68E90 /* macro.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2B614D2A2A600D68E90 /* macro.h */; };
+		B60EA30414D2A2A600D68E90 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2B714D2A2A600D68E90 /* makefile */; };
+		B60EA30514D2A2A600D68E90 /* NetDvrApi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2B814D2A2A600D68E90 /* NetDvrApi.cpp */; };
+		B60EA30614D2A2A600D68E90 /* NetDvrApi.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2B914D2A2A600D68E90 /* NetDvrApi.h */; };
+		B60EA30814D2A2A600D68E90 /* PESPacketHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2BB14D2A2A600D68E90 /* PESPacketHead.cpp */; };
+		B60EA30914D2A2A600D68E90 /* PESPacketHead.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2BC14D2A2A600D68E90 /* PESPacketHead.h */; };
+		B60EA30B14D2A2A600D68E90 /* PSFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2BE14D2A2A600D68E90 /* PSFile.cpp */; };
+		B60EA30C14D2A2A600D68E90 /* PSFile.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2BF14D2A2A600D68E90 /* PSFile.h */; };
+		B60EA30E14D2A2A600D68E90 /* PSWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2C114D2A2A600D68E90 /* PSWriter.cpp */; };
+		B60EA30F14D2A2A600D68E90 /* PSWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2C214D2A2A600D68E90 /* PSWriter.h */; };
+		B60EA31114D2A2A600D68E90 /* RemoteConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2C414D2A2A600D68E90 /* RemoteConfig.cpp */; };
+		B60EA31214D2A2A600D68E90 /* RemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2C514D2A2A600D68E90 /* RemoteConfig.h */; };
+		B60EA31414D2A2A600D68E90 /* RemoteFilePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2C714D2A2A600D68E90 /* RemoteFilePlayer.cpp */; };
+		B60EA31514D2A2A600D68E90 /* RemoteFilePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2C814D2A2A600D68E90 /* RemoteFilePlayer.h */; };
+		B60EA31714D2A2A600D68E90 /* RemotePSFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2CA14D2A2A600D68E90 /* RemotePSFile.cpp */; };
+		B60EA31814D2A2A600D68E90 /* RemotePSFile.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2CB14D2A2A600D68E90 /* RemotePSFile.h */; };
+		B60EA31A14D2A2A600D68E90 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2CD14D2A2A600D68E90 /* resource.h */; };
+		B60EA31B14D2A2A600D68E90 /* SpeechFifo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2CE14D2A2A600D68E90 /* SpeechFifo.cpp */; };
+		B60EA31C14D2A2A600D68E90 /* SpeechFifo.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2CF14D2A2A600D68E90 /* SpeechFifo.h */; };
+		B60EA31E14D2A2A600D68E90 /* SpeechSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2D114D2A2A600D68E90 /* SpeechSocket.cpp */; };
+		B60EA31F14D2A2A600D68E90 /* SpeechSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2D214D2A2A600D68E90 /* SpeechSocket.h */; };
+		B60EA32114D2A2A600D68E90 /* StreamFifo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2D414D2A2A600D68E90 /* StreamFifo.cpp */; };
+		B60EA32214D2A2A600D68E90 /* StreamFifo.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2D514D2A2A600D68E90 /* StreamFifo.h */; };
+		B60EA32414D2A2A600D68E90 /* StreamSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2D714D2A2A600D68E90 /* StreamSocket.cpp */; };
+		B60EA32514D2A2A600D68E90 /* StreamSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2D814D2A2A600D68E90 /* StreamSocket.h */; };
+		B60EA32714D2A2A600D68E90 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2DB14D2A2A600D68E90 /* test.cpp */; };
+		B60EA32814D2A2A600D68E90 /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60EA2DC14D2A2A600D68E90 /* Thread.cpp */; };
+		B60EA32914D2A2A600D68E90 /* Thread.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2DD14D2A2A600D68E90 /* Thread.h */; };
+		B60EA32B14D2A2A600D68E90 /* VersionDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = B60EA2DF14D2A2A600D68E90 /* VersionDefine.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B60EA29314D2A2A600D68E90 /* AudioStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioStream.cpp; sourceTree = "<group>"; };
+		B60EA29414D2A2A600D68E90 /* AudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStream.h; sourceTree = "<group>"; };
+		B60EA29614D2A2A600D68E90 /* common_dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common_dump.h; sourceTree = "<group>"; };
+		B60EA29714D2A2A600D68E90 /* DeviceStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeviceStream.cpp; sourceTree = "<group>"; };
+		B60EA29814D2A2A600D68E90 /* DeviceStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceStream.h; sourceTree = "<group>"; };
+		B60EA29A14D2A2A600D68E90 /* DVRSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DVRSocket.cpp; sourceTree = "<group>"; };
+		B60EA29B14D2A2A600D68E90 /* DVRSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVRSocket.h; sourceTree = "<group>"; };
+		B60EA29D14D2A2A600D68E90 /* DvrSpeech.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DvrSpeech.cpp; sourceTree = "<group>"; };
+		B60EA29E14D2A2A600D68E90 /* DvrSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvrSpeech.h; sourceTree = "<group>"; };
+		B60EA2A014D2A2A600D68E90 /* Dvs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dvs.cpp; sourceTree = "<group>"; };
+		B60EA2A114D2A2A600D68E90 /* Dvs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dvs.h; sourceTree = "<group>"; };
+		B60EA2A314D2A2A600D68E90 /* DvsPro16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DvsPro16.cpp; sourceTree = "<group>"; };
+		B60EA2A414D2A2A600D68E90 /* DvsPro16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvsPro16.h; sourceTree = "<group>"; };
+		B60EA2A614D2A2A600D68E90 /* DvssDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvssDefine.h; sourceTree = "<group>"; };
+		B60EA2A714D2A2A600D68E90 /* DvssNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvssNet.h; sourceTree = "<group>"; };
+		B60EA2A814D2A2A600D68E90 /* Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Event.cpp; sourceTree = "<group>"; };
+		B60EA2A914D2A2A600D68E90 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		B60EA2AB14D2A2A600D68E90 /* Global.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Global.cpp; sourceTree = "<group>"; };
+		B60EA2AC14D2A2A600D68E90 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		B60EA2AF14D2A2A600D68E90 /* LocalFilePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalFilePlayer.cpp; sourceTree = "<group>"; };
+		B60EA2B014D2A2A600D68E90 /* LocalFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalFilePlayer.h; sourceTree = "<group>"; };
+		B60EA2B214D2A2A600D68E90 /* Lock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lock.cpp; sourceTree = "<group>"; };
+		B60EA2B314D2A2A600D68E90 /* Lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lock.h; sourceTree = "<group>"; };
+		B60EA2B514D2A2A600D68E90 /* macro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = macro.cpp; sourceTree = "<group>"; };
+		B60EA2B614D2A2A600D68E90 /* macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		B60EA2B714D2A2A600D68E90 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		B60EA2B814D2A2A600D68E90 /* NetDvrApi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetDvrApi.cpp; sourceTree = "<group>"; };
+		B60EA2B914D2A2A600D68E90 /* NetDvrApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetDvrApi.h; sourceTree = "<group>"; };
+		B60EA2BB14D2A2A600D68E90 /* PESPacketHead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PESPacketHead.cpp; sourceTree = "<group>"; };
+		B60EA2BC14D2A2A600D68E90 /* PESPacketHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PESPacketHead.h; sourceTree = "<group>"; };
+		B60EA2BE14D2A2A600D68E90 /* PSFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PSFile.cpp; sourceTree = "<group>"; };
+		B60EA2BF14D2A2A600D68E90 /* PSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFile.h; sourceTree = "<group>"; };
+		B60EA2C114D2A2A600D68E90 /* PSWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PSWriter.cpp; sourceTree = "<group>"; };
+		B60EA2C214D2A2A600D68E90 /* PSWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWriter.h; sourceTree = "<group>"; };
+		B60EA2C414D2A2A600D68E90 /* RemoteConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoteConfig.cpp; sourceTree = "<group>"; };
+		B60EA2C514D2A2A600D68E90 /* RemoteConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteConfig.h; sourceTree = "<group>"; };
+		B60EA2C714D2A2A600D68E90 /* RemoteFilePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoteFilePlayer.cpp; sourceTree = "<group>"; };
+		B60EA2C814D2A2A600D68E90 /* RemoteFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteFilePlayer.h; sourceTree = "<group>"; };
+		B60EA2CA14D2A2A600D68E90 /* RemotePSFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemotePSFile.cpp; sourceTree = "<group>"; };
+		B60EA2CB14D2A2A600D68E90 /* RemotePSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemotePSFile.h; sourceTree = "<group>"; };
+		B60EA2CD14D2A2A600D68E90 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		B60EA2CE14D2A2A600D68E90 /* SpeechFifo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpeechFifo.cpp; sourceTree = "<group>"; };
+		B60EA2CF14D2A2A600D68E90 /* SpeechFifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechFifo.h; sourceTree = "<group>"; };
+		B60EA2D114D2A2A600D68E90 /* SpeechSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpeechSocket.cpp; sourceTree = "<group>"; };
+		B60EA2D214D2A2A600D68E90 /* SpeechSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSocket.h; sourceTree = "<group>"; };
+		B60EA2D414D2A2A600D68E90 /* StreamFifo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StreamFifo.cpp; sourceTree = "<group>"; };
+		B60EA2D514D2A2A600D68E90 /* StreamFifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamFifo.h; sourceTree = "<group>"; };
+		B60EA2D714D2A2A600D68E90 /* StreamSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StreamSocket.cpp; sourceTree = "<group>"; };
+		B60EA2D814D2A2A600D68E90 /* StreamSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamSocket.h; sourceTree = "<group>"; };
+		B60EA2DB14D2A2A600D68E90 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		B60EA2DC14D2A2A600D68E90 /* Thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Thread.cpp; sourceTree = "<group>"; };
+		B60EA2DD14D2A2A600D68E90 /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		B60EA2DF14D2A2A600D68E90 /* VersionDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionDefine.h; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libDVSSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDVSSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* DVSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = DVSSDK;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B60EA29214D2A2A600D68E90 /* src */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libDVSSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60EA29214D2A2A600D68E90 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B60EA29314D2A2A600D68E90 /* AudioStream.cpp */,
+				B60EA29414D2A2A600D68E90 /* AudioStream.h */,
+				B60EA29614D2A2A600D68E90 /* common_dump.h */,
+				B60EA29714D2A2A600D68E90 /* DeviceStream.cpp */,
+				B60EA29814D2A2A600D68E90 /* DeviceStream.h */,
+				B60EA29A14D2A2A600D68E90 /* DVRSocket.cpp */,
+				B60EA29B14D2A2A600D68E90 /* DVRSocket.h */,
+				B60EA29D14D2A2A600D68E90 /* DvrSpeech.cpp */,
+				B60EA29E14D2A2A600D68E90 /* DvrSpeech.h */,
+				B60EA2A014D2A2A600D68E90 /* Dvs.cpp */,
+				B60EA2A114D2A2A600D68E90 /* Dvs.h */,
+				B60EA2A314D2A2A600D68E90 /* DvsPro16.cpp */,
+				B60EA2A414D2A2A600D68E90 /* DvsPro16.h */,
+				B60EA2A614D2A2A600D68E90 /* DvssDefine.h */,
+				B60EA2A714D2A2A600D68E90 /* DvssNet.h */,
+				B60EA2A814D2A2A600D68E90 /* Event.cpp */,
+				B60EA2A914D2A2A600D68E90 /* Event.h */,
+				B60EA2AB14D2A2A600D68E90 /* Global.cpp */,
+				B60EA2AC14D2A2A600D68E90 /* Global.h */,
+				B60EA2AF14D2A2A600D68E90 /* LocalFilePlayer.cpp */,
+				B60EA2B014D2A2A600D68E90 /* LocalFilePlayer.h */,
+				B60EA2B214D2A2A600D68E90 /* Lock.cpp */,
+				B60EA2B314D2A2A600D68E90 /* Lock.h */,
+				B60EA2B514D2A2A600D68E90 /* macro.cpp */,
+				B60EA2B614D2A2A600D68E90 /* macro.h */,
+				B60EA2B714D2A2A600D68E90 /* makefile */,
+				B60EA2B814D2A2A600D68E90 /* NetDvrApi.cpp */,
+				B60EA2B914D2A2A600D68E90 /* NetDvrApi.h */,
+				B60EA2BB14D2A2A600D68E90 /* PESPacketHead.cpp */,
+				B60EA2BC14D2A2A600D68E90 /* PESPacketHead.h */,
+				B60EA2BE14D2A2A600D68E90 /* PSFile.cpp */,
+				B60EA2BF14D2A2A600D68E90 /* PSFile.h */,
+				B60EA2C114D2A2A600D68E90 /* PSWriter.cpp */,
+				B60EA2C214D2A2A600D68E90 /* PSWriter.h */,
+				B60EA2C414D2A2A600D68E90 /* RemoteConfig.cpp */,
+				B60EA2C514D2A2A600D68E90 /* RemoteConfig.h */,
+				B60EA2C714D2A2A600D68E90 /* RemoteFilePlayer.cpp */,
+				B60EA2C814D2A2A600D68E90 /* RemoteFilePlayer.h */,
+				B60EA2CA14D2A2A600D68E90 /* RemotePSFile.cpp */,
+				B60EA2CB14D2A2A600D68E90 /* RemotePSFile.h */,
+				B60EA2CD14D2A2A600D68E90 /* resource.h */,
+				B60EA2CE14D2A2A600D68E90 /* SpeechFifo.cpp */,
+				B60EA2CF14D2A2A600D68E90 /* SpeechFifo.h */,
+				B60EA2D114D2A2A600D68E90 /* SpeechSocket.cpp */,
+				B60EA2D214D2A2A600D68E90 /* SpeechSocket.h */,
+				B60EA2D414D2A2A600D68E90 /* StreamFifo.cpp */,
+				B60EA2D514D2A2A600D68E90 /* StreamFifo.h */,
+				B60EA2D714D2A2A600D68E90 /* StreamSocket.cpp */,
+				B60EA2D814D2A2A600D68E90 /* StreamSocket.h */,
+				B60EA2DB14D2A2A600D68E90 /* test.cpp */,
+				B60EA2DC14D2A2A600D68E90 /* Thread.cpp */,
+				B60EA2DD14D2A2A600D68E90 /* Thread.h */,
+				B60EA2DF14D2A2A600D68E90 /* VersionDefine.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60EA2E114D2A2A600D68E90 /* AudioStream.h in Headers */,
+				B60EA2E314D2A2A600D68E90 /* common_dump.h in Headers */,
+				B60EA2E514D2A2A600D68E90 /* DeviceStream.h in Headers */,
+				B60EA2E814D2A2A600D68E90 /* DVRSocket.h in Headers */,
+				B60EA2EB14D2A2A600D68E90 /* DvrSpeech.h in Headers */,
+				B60EA2EE14D2A2A600D68E90 /* Dvs.h in Headers */,
+				B60EA2F114D2A2A600D68E90 /* DvsPro16.h in Headers */,
+				B60EA2F314D2A2A600D68E90 /* DvssDefine.h in Headers */,
+				B60EA2F414D2A2A600D68E90 /* DvssNet.h in Headers */,
+				B60EA2F614D2A2A600D68E90 /* Event.h in Headers */,
+				B60EA2F914D2A2A600D68E90 /* Global.h in Headers */,
+				B60EA2FD14D2A2A600D68E90 /* LocalFilePlayer.h in Headers */,
+				B60EA30014D2A2A600D68E90 /* Lock.h in Headers */,
+				B60EA30314D2A2A600D68E90 /* macro.h in Headers */,
+				B60EA30614D2A2A600D68E90 /* NetDvrApi.h in Headers */,
+				B60EA30914D2A2A600D68E90 /* PESPacketHead.h in Headers */,
+				B60EA30C14D2A2A600D68E90 /* PSFile.h in Headers */,
+				B60EA30F14D2A2A600D68E90 /* PSWriter.h in Headers */,
+				B60EA31214D2A2A600D68E90 /* RemoteConfig.h in Headers */,
+				B60EA31514D2A2A600D68E90 /* RemoteFilePlayer.h in Headers */,
+				B60EA31814D2A2A600D68E90 /* RemotePSFile.h in Headers */,
+				B60EA31A14D2A2A600D68E90 /* resource.h in Headers */,
+				B60EA31C14D2A2A600D68E90 /* SpeechFifo.h in Headers */,
+				B60EA31F14D2A2A600D68E90 /* SpeechSocket.h in Headers */,
+				B60EA32214D2A2A600D68E90 /* StreamFifo.h in Headers */,
+				B60EA32514D2A2A600D68E90 /* StreamSocket.h in Headers */,
+				B60EA32914D2A2A600D68E90 /* Thread.h in Headers */,
+				B60EA32B14D2A2A600D68E90 /* VersionDefine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* DVSSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "DVSSDK" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVSSDK;
+			productName = DVSSDK;
+			productReference = D2AAC046055464E500DB518D /* libDVSSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "DVSSDK" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* DVSSDK */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* DVSSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60EA2E014D2A2A600D68E90 /* AudioStream.cpp in Sources */,
+				B60EA2E414D2A2A600D68E90 /* DeviceStream.cpp in Sources */,
+				B60EA2E714D2A2A600D68E90 /* DVRSocket.cpp in Sources */,
+				B60EA2EA14D2A2A600D68E90 /* DvrSpeech.cpp in Sources */,
+				B60EA2ED14D2A2A600D68E90 /* Dvs.cpp in Sources */,
+				B60EA2F014D2A2A600D68E90 /* DvsPro16.cpp in Sources */,
+				B60EA2F514D2A2A600D68E90 /* Event.cpp in Sources */,
+				B60EA2F814D2A2A600D68E90 /* Global.cpp in Sources */,
+				B60EA2FC14D2A2A600D68E90 /* LocalFilePlayer.cpp in Sources */,
+				B60EA2FF14D2A2A600D68E90 /* Lock.cpp in Sources */,
+				B60EA30214D2A2A600D68E90 /* macro.cpp in Sources */,
+				B60EA30414D2A2A600D68E90 /* makefile in Sources */,
+				B60EA30514D2A2A600D68E90 /* NetDvrApi.cpp in Sources */,
+				B60EA30814D2A2A600D68E90 /* PESPacketHead.cpp in Sources */,
+				B60EA30B14D2A2A600D68E90 /* PSFile.cpp in Sources */,
+				B60EA30E14D2A2A600D68E90 /* PSWriter.cpp in Sources */,
+				B60EA31114D2A2A600D68E90 /* RemoteConfig.cpp in Sources */,
+				B60EA31414D2A2A600D68E90 /* RemoteFilePlayer.cpp in Sources */,
+				B60EA31714D2A2A600D68E90 /* RemotePSFile.cpp in Sources */,
+				B60EA31B14D2A2A600D68E90 /* SpeechFifo.cpp in Sources */,
+				B60EA31E14D2A2A600D68E90 /* SpeechSocket.cpp in Sources */,
+				B60EA32114D2A2A600D68E90 /* StreamFifo.cpp in Sources */,
+				B60EA32414D2A2A600D68E90 /* StreamSocket.cpp in Sources */,
+				B60EA32714D2A2A600D68E90 /* test.cpp in Sources */,
+				B60EA32814D2A2A600D68E90 /* Thread.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/src\"",
+				);
+				PRODUCT_NAME = DVSSDK;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/src\"",
+				);
+				PRODUCT_NAME = DVSSDK;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "DVSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "DVSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

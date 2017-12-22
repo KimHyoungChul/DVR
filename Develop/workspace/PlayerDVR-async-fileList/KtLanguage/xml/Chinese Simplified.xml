@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<_CHINESE_>
+  <IDC_LOGIN_PAGE _name_="登录页面">
+    <TITLE _name_="用户登录" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <IPADDRESS _name_="IP 地址：" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <MEDIAPORT _name_="媒体端口：" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <PASSWORD _name_="密码：" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <NETWORK _name_="网络环境：" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <IDB_BMP_BUTTON1 _name_="登录" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <IDB_BMP_BUTTON2 _name_="重置" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <MEDIAPORTERROR _name_="端口错误！" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <LOGIN _name_="正在登录......" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <LOGINFAILED _name_="登录失败！" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <LOGINSUCCESS _name_="登录成功！正在初始化..." _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <LAN _name_="局域网" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <INTERNET _name_="因特网" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15"></INTERNET>
+    <LANGUAGE _name_="语言选择：" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <IDC_BTN_LOGIN _name_="登录" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <IDC_BTN_RESET _name_="重置" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <IDC_BTN_OFFLINE _name_="离线播放" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+  </IDC_LOGIN_PAGE>
+  <IDC_MAIN_PAGE _name_="主界面">
+	<TITLE _name_="视频预览" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <IDC_BTN_PLAYBACK _name_="录像回放" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_SETUP _name_="设置" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_LOGIN_OUT _name_="注销" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <PLAYCONTROL _name_="预览控制" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <PTZCONTROL _name_="云台控制" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="">
+      <ZOOM _name_="变焦" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+      <FOCUS _name_="聚焦" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+      <IRIS _name_="光圈" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    </PTZCONTROL>
+    <FULLSCREEN _name_="全屏" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <END_FULLSCREEN _name_="退出全屏" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+  </IDC_MAIN_PAGE>
+  <IDC_PLAYBACK_PAGE _name_="回放页面">
+    <TITLE _name_="录像回放" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <IDC_BTN_BACKUP _name_="备份" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_LIST_PLAY _name_="播放" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_SEARCH _name_="搜索" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_REFRESH _name_="刷新" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_COMBO_SEARCH_CH _name_="选择通道" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20">
+      <CH _name_="通道" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+      <ALL _name_="所有通道" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    </IDC_COMBO_SEARCH_CH>
+    <IDC_COMBO_SEARCH_TYPE _name_="选择类型" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20">
+      <COMMON _name_="常规" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+      <ALARM _name_="报警" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+      <ALLTYPE _name_="所有类型" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    </IDC_COMBO_SEARCH_TYPE>
+    <LIST_FILES _name_="文件列表" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="">
+      <SIZE _name_="大小" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+      <CHANNEL _name_="通道" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+      <TIME _name_="时间" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    </LIST_FILES>
+    <IDC_BTN_ADD _name_="添加" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_PLAY_OFFFILE _name_="播放" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_DEL_LIST _name_="删除" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_EMPTY_LIST _name_="清空" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDM_ADD_FILE _name_="添加文件" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDM_ADD_FOLDER _name_="添加目录" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_RETURN_LOGIN _name_="登录" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+	<IDM_BTN_OPENFS _name_="打开" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+	<IDM_TAB_ONLINE _name_="在线" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />	
+	<IDM_TAB_HISTORY _name_="历史" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDM_TAB_LOCAL _name_="本地" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+	<IDC_LABEL_STARTTIME _name_="开始时间：" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_STOP _name_="停止" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_NORMAL _name_="正常" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_PAUSE _name_="暂停" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_FINISH _name_="完成" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_STEP _name_="单帧" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_NOSELECT _name_="没文件" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_RECDAY _name_="录像时间：" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_BACKUP _name_="备份" _font_="test" _fontcolor_="0xffff"/>
+		
+  </IDC_PLAYBACK_PAGE>
+  <IDC_SETUP_PAGE _name_="设置页面">
+    <TITLE _name_="设置" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_RECORD _name_="录像" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_ALARM _name_="报警" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_EMAIL _name_="邮箱" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_PTZ _name_="云台" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_NETWORK _name_="网络" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_MANAGE _name_="管理" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_INFO _name_="信息" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />		
+	<IDM_TAB_APPLY _name_="应用" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />	
+	
+			
+    <IDC_SUBVIEW_RECORD _name_="录像" _y_="35" _font_="test" _fontcolor_="0xffff" _x_="20" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+        <IDC_STAT_RESOLUTION _name_="分辨率：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_PACKETLEN _name_="打包时间：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_STAT_MODE _name_="模式：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_STAT_CHANNELL _name_="通道：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15"/>		
+		<IDC_LABEL_SCHESETUP _name_="计划表设置" _font_="test" _fontcolor_="0xffff"/>												
+		<IDC_RADIO_RESD1 _name_="高" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_RESHD1 _name_="中" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_RESCIF _name_="低" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_QUALITY _name_="质量：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_QUALITY_BEST _name_="优" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_QUALITY_FINE _name_="良" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_QUALITY_NORMAL _name_="中" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_AUDIO _name_="录音：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_AUDIO_OPEN _name_="开" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_AUDIO_CLOSE _name_="关" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_RECMODE _name_="录像模式" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_RECMODE_POWERUP _name_="开机录像" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_RECMODE_TIMED _name_="定时录像" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_ALARMREC _name_="报警" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_NORMALREC _name_="录像" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_NOREC _name_="关" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_15MIN _name_="15分钟" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_RADIO_30MIN _name_="30分钟" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_RADIO_45MIN _name_="45分钟" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_RADIO_60MIN _name_="60分钟" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_BTN_DEFAULT _name_="默认" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_APPLY _name_="应用" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_SUNDAY _name_="日" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_MONDAY _name_="一" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_TUESDAY _name_="二" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_WEDNESDAY _name_="三" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_THURSDAY _name_="四" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_FRIDAY _name_="五" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_SATURDAY _name_="六" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15"/>
+		<IDC_STAT_APPLY _name_="使用" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15"/>
+		
+        <ALL _name_="所有" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    </IDC_SUBVIEW_RECORD>
+    <IDC_SUBVIEW_ALARM _name_="报警" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+        <IDC_LABEL_CHANNELL _name_="通道："/>
+		<IDC_LABEL_IOALARM _name_="通道警报：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_MOTIONDETECT _name_="移动侦测：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_MOTION_STATUS _name_="通道开关" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_MOTION_SENS _name_="灵 敏 度：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_MOTION_CLEAR _name_="清除" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_DEFAULT _name_="默认" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_APPLY _name_="应用" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IOALARM_NO _name_="常开" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IOALARM_OFF _name_="关闭" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IOALARM_NC _name_="常闭" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <STATUS_ON _name_="打开" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <STATUS_OFF _name_="关闭" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_MDAERA _name_="区域设置" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<ALL _name_="所有" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_STAT_ALARMSTAT _name_="报警类型" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_VIDEOLOSS _name_="视频丢失报警：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_HDDSPACE _name_="硬盘不足报警：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_HDDLOSS _name_="硬盘失效报警：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_STAT_ALARM_MANAGE _name_="报警处理" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_OUTPUT _name_="报警输出：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_BUZZER _name_="蜂鸣器：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_POSTREC _name_="录像延时：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<ZERO_S _name_="0秒" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<TEN_S _name_="10秒" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<TWENTY_S _name_="20秒" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<FORTY_S _name_="40秒" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<SIXTY_S _name_="60秒" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<THIRTY_S _name_="30秒" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<ONE_MIN _name_="1分钟" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<TWO_MIN _name_="2分钟" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<FIVE_MIN _name_="5分钟" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    </IDC_SUBVIEW_ALARM>
+	<IDC_SUBVIEW_EMAIL _name_="邮箱" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+		<IDC_LABEL_STATUS _name_="状态：" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_SSL _name_="安全协议：" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_SMTPPORT _name_="Smtp端口：" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_SMTPSERVER _name_="Smtp服务器：" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_SENDMAIL _name_="发送地址：" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_SENDPASSWORD _name_="发送密码：" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_RECVMAIL _name_="接收地址：" _font_="test" _fontcolor_="0xffff"/>
+	</IDC_SUBVIEW_EMAIL>
+    <IDC_SUBVIEW_PTZ _name_="云台" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+        <IDC_LABEL_PROTOCOL _name_="协   议：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_ADDRESS _name_="地   址：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_BAUDRATE _name_="波特率：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_DATABIT _name_="数据位：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_STOPBIT _name_="停止位：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_VERIFY _name_="校   验：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_DEFAULT _name_="默认" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_APPLY _name_="应用" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <VERIFY_NONE _name_="无" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <VERIFY_ODD _name_="奇校验" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <VERIFY_EVEN _name_="偶校验" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <VERIFY_MARK _name_="标记" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <VERIFY_SPACE _name_="空格" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<ALL _name_="所有" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    </IDC_SUBVIEW_PTZ>
+    <IDC_SUBVIEW_NETWORK _name_="网络" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+        <IDC_LABEL_TYPE _name_="类型：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_MEDIAPORT _name_="媒体端口：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_WEBPORT _name_="网络端口：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_MOBILEPORT _name_="手机端口：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_BITRATE _name_="互联网码率：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_IPADDR _name_="IP地址：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_NETMASK _name_="子网掩码：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_GATEWAY _name_="网关：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_DNS _name_="DNS：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_DEFAULT _name_="默认" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_APPLY _name_="应用" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_PPPOENAME _name_="PPPOE 用户名：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_PPPOEPWD _name_="密码：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <TYPE_LABEL_STATIC _name_="静态" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_DDNSSTATUS _name_="状   态：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_DNSSSERVICE _name_="服务器：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_DNSSHOSTNAME _name_="主机名：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_USERNAME _name_="用户名：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_PASSWORD _name_="密   码：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <STATUS_ON _name_="打开" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <STATUS_OFF _name_="关闭" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    </IDC_SUBVIEW_NETWORK>
+    <IDC_SUBVIEW_MANAGE _name_="设置" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+        <IDC_STAT_BANDWIDTH _name_="因特网带宽" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_FILEPATH _name_="文件保存路径" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_IEPWDENABLE _name_="IE密码功能：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_DVRPWDENABLE _name_="DVR密码功能：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_USERPWD _name_="普通用户密码：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_USRREENTER _name_="再次输入：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_ADMINPWD _name_="管理员密码：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_ADMINREENTER _name_="再次输入：" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_DEFAULT _name_="默认" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_APPLY _name_="应用" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IEPWDENABLE_ON _name_="打开" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IEPWDENABLE_OFF _name_="关闭" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    </IDC_SUBVIEW_MANAGE>
+    <IDC_SUBVIEW_HOSTINFO _name_="信息" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="">
+        <IDC_STAT_HDDSTATUS _name_="硬盘状态：" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<IDC_STAT_HDD _name_="硬盘（容量／剩余）：" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<IDC_STAT_SERIALNUM _name_="序列号：" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<IDC_STAT_AVAILABLETIME _name_="剩余录像时间" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+        <IDC_STAT_DVRSOFTVERSION _name_="软件版本：" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+        <IDC_STAT_MACADDRESS _name_="MAC地址：" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+        <HOUR _name_="小时" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+        <IDC_STAT_CLIENTVERSION _name_="软件版本" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+        <IDC_STAT_FILEVERSION _name_="文件版本" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    </IDC_SUBVIEW_HOSTINFO>
+  </IDC_SETUP_PAGE>
+  <IDC_PROMPT _name_="提示">
+    <OTHER_USER_CONFIGURING _name_="其他用户配置中..." _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <PLAYBACK _name_="回放" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <DOWNLOAD_PROC_IS_RUNNING _name_="下载程序正在运行" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <BACKUP _name_="备份" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <STOP _name_="停止" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <FILE_HAS_BEEN_BACKED_UP _name_="文件已经备份！文件路径：" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <CREATEFILE_FAILED _name_="创建文件失败" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <STEP _name_="帧放" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <PAUSE _name_="暂停" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <CONFIG_SUCCESS _name_="配置成功！" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <CONFIG_FAILED _name_="配置失败！错误代码0x%08x" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <SETUP _name_="设置" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <USERNAME_PASSWORD_INCONSISTENT _name_="用户密码不一致" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <SAVE_SUCCESS _name_="保存成功！保存路径：" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <DOWNLOAD_FAILED _name_="下载失败！" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <OTHER_CONFIGURING _name_="其他用户配置中" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <OTHER_USER_DOWNLOADING_NOW _name_="其他用户正在下载" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <BACKUP_SUCCESS _name_="备份成功！保存路径：" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <STOP_BACKUP_SUCCESS _name_="停止备份成功！" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <BACKUP_FAILED _name_="备份失败！错误代码：" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <STOP_PLAY_BEFORE_REMOVE _name_="请先停止播放" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_=""></STOP_PLAY_BEFORE_REMOVE>
+    <NO_NEED_SAVE _name_="没有修改参数，不需要保存" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+  </IDC_PROMPT>
+  <IDC_INFORMATION>
+	<IDC_STRING_LOGINSUCCESS _name_="登录成功！" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_STRING_LOGINFAIL _name_="登录失败！" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_STRING_PARAMSETUPSUCCESS _name_="设置设备参数成功！" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_STRING_PARAMSETUPFAIL _name_="设置设备参数失败！" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_STRING_NORECTHISMONTH _name_="这个月没有录像！" _font_="test" _fontcolor_="0xffff"/>
+  </IDC_INFORMATION>
+  <IDC_GOLBAL>
+	<IDC_ALLCHANNEL _name_="所有通道" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_STARTTIME _name_="开始时间" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_CHANNEL _name_="通道" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_SIZE _name_="大小" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_RECCOMMON _name_="常规" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_RECALARM _name_="报警" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_RECALLTYPE _name_="所有" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_OPEN _name_="打开" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_CLOSE _name_="关闭" _font_="test" _fontcolor_="0xffff"/>
+  </IDC_GOLBAL>
+</_CHINESE_>

@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DVRPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DVRPlayerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* DVRPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DVRPlayerViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* DVRPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DVRPlayerViewController.m */; };
+		B69969E81384F17A00028895 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B69969E71384F17A00028895 /* images.jpeg */; };
+		B6996A081385001300028895 /* user_name_MV.png in Resources */ = {isa = PBXBuildFile; fileRef = B6996A061385001300028895 /* user_name_MV.png */; };
+		B6996A091385001300028895 /* user_name.png in Resources */ = {isa = PBXBuildFile; fileRef = B6996A071385001300028895 /* user_name.png */; };
+		B6996A4B1385107500028895 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6996A4A1385107500028895 /* background2.png */; };
+		B6996A7B138515DF00028895 /* btn_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = B6996A79138515DF00028895 /* btn_nor.png */; };
+		B6996A7C138515DF00028895 /* btn_on.png in Resources */ = {isa = PBXBuildFile; fileRef = B6996A7A138515DF00028895 /* btn_on.png */; };
+		B6A3D44F1395D260007873E5 /* ScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A3D44E1395D260007873E5 /* ScheduleView.m */; };
+		B6A4995B13971D8100FB1D69 /* GridSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A4995A13971D8100FB1D69 /* GridSelectView.m */; };
+		B6A4996613971FD000FB1D69 /* kt_util.c in Sources */ = {isa = PBXBuildFile; fileRef = B6A4996413971FD000FB1D69 /* kt_util.c */; };
+		B6AC9E8F138F740E007CA640 /* ChannelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC9E8A138F740E007CA640 /* ChannelTableViewCell.m */; };
+		B6AC9E90138F740E007CA640 /* ChannelCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC9E8C138F740E007CA640 /* ChannelCellView.m */; };
+		B6AC9E91138F740E007CA640 /* IndividualChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC9E8E138F740E007CA640 /* IndividualChannelCell.m */; };
+		B6AC9EA7138F79B8007CA640 /* Baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC9E9D138F79B8007CA640 /* Baseball.png */; };
+		B6AC9EA8138F79B8007CA640 /* Blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC9E9E138F79B8007CA640 /* Blocks.png */; };
+		B6AC9EA9138F79B8007CA640 /* Checkers.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC9E9F138F79B8007CA640 /* Checkers.png */; };
+		B6AC9EAA138F79B8007CA640 /* DarkBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC9EA0138F79B8007CA640 /* DarkBackground.png */; };
+		B6AC9EAB138F79B8007CA640 /* Dinner.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC9EA1138F79B8007CA640 /* Dinner.png */; };
+		B6AC9EAC138F79B8007CA640 /* Football.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC9EA2138F79B8007CA640 /* Football.png */; };
+		B6AC9EAD138F79B8007CA640 /* LightBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC9EA3138F79B8007CA640 /* LightBackground.png */; };
+		B6AC9EAE138F79B8007CA640 /* MathGraph.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC9EA4138F79B8007CA640 /* MathGraph.png */; };
+		B6AC9EAF138F79B8007CA640 /* StarsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC9EA5138F79B8007CA640 /* StarsBackground.png */; };
+		B6AC9EB0138F79B8007CA640 /* StarsForeground.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC9EA6138F79B8007CA640 /* StarsForeground.png */; };
+		B6AC9EB2138F7B35007CA640 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6AC9EB1138F7B35007CA640 /* Data.plist */; };
+		B6AC9EB9138F7D32007CA640 /* ChannelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC9EB8138F7D32007CA640 /* ChannelTableViewController.m */; };
+		B6B51E3F138CA79E0093A49E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B51E3D138CA79E0093A49E /* MainViewController.m */; };
+		B6B51E40138CA79E0093A49E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B51E3E138CA79E0093A49E /* MainViewController.xib */; };
+		B6B51F81138CF69C0093A49E /* MainSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B51F7F138CF69C0093A49E /* MainSubViewController.m */; };
+		B6B51F82138CF69C0093A49E /* MainSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B51F80138CF69C0093A49E /* MainSubViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DVRPlayerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVRPlayerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DVRPlayerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVRPlayerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DVRPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVRPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* DVRPlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DVRPlayerViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* DVRPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVRPlayerViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* DVRPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVRPlayerViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* DVRPlayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVRPlayer_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DVRPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DVRPlayer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B69969E71384F17A00028895 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = res/images.jpeg; sourceTree = "<group>"; };
+		B6996A061385001300028895 /* user_name_MV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_name_MV.png; path = res/user_name_MV.png; sourceTree = "<group>"; };
+		B6996A071385001300028895 /* user_name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_name.png; path = res/user_name.png; sourceTree = "<group>"; };
+		B6996A4A1385107500028895 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background2.png; path = res/background2.png; sourceTree = "<group>"; };
+		B6996A79138515DF00028895 /* btn_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_nor.png; path = res/btn_nor.png; sourceTree = "<group>"; };
+		B6996A7A138515DF00028895 /* btn_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_on.png; path = res/btn_on.png; sourceTree = "<group>"; };
+		B6A3D44D1395D260007873E5 /* ScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleView.h; sourceTree = "<group>"; };
+		B6A3D44E1395D260007873E5 /* ScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleView.m; sourceTree = "<group>"; };
+		B6A4995913971D8100FB1D69 /* GridSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridSelectView.h; sourceTree = "<group>"; };
+		B6A4995A13971D8100FB1D69 /* GridSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridSelectView.m; sourceTree = "<group>"; };
+		B6A4996413971FD000FB1D69 /* kt_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kt_util.c; sourceTree = "<group>"; };
+		B6A4996513971FD000FB1D69 /* kt_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kt_util.h; sourceTree = "<group>"; };
+		B6AC9E89138F740E007CA640 /* ChannelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelTableViewCell.h; sourceTree = "<group>"; };
+		B6AC9E8A138F740E007CA640 /* ChannelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelTableViewCell.m; sourceTree = "<group>"; };
+		B6AC9E8B138F740E007CA640 /* ChannelCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelCellView.h; sourceTree = "<group>"; };
+		B6AC9E8C138F740E007CA640 /* ChannelCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelCellView.m; sourceTree = "<group>"; };
+		B6AC9E8D138F740E007CA640 /* IndividualChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndividualChannelCell.h; sourceTree = "<group>"; };
+		B6AC9E8E138F740E007CA640 /* IndividualChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndividualChannelCell.m; sourceTree = "<group>"; };
+		B6AC9E9D138F79B8007CA640 /* Baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Baseball.png; path = res/Baseball.png; sourceTree = "<group>"; };
+		B6AC9E9E138F79B8007CA640 /* Blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blocks.png; path = res/Blocks.png; sourceTree = "<group>"; };
+		B6AC9E9F138F79B8007CA640 /* Checkers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Checkers.png; path = res/Checkers.png; sourceTree = "<group>"; };
+		B6AC9EA0138F79B8007CA640 /* DarkBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DarkBackground.png; path = res/DarkBackground.png; sourceTree = "<group>"; };
+		B6AC9EA1138F79B8007CA640 /* Dinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dinner.png; path = res/Dinner.png; sourceTree = "<group>"; };
+		B6AC9EA2138F79B8007CA640 /* Football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Football.png; path = res/Football.png; sourceTree = "<group>"; };
+		B6AC9EA3138F79B8007CA640 /* LightBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LightBackground.png; path = res/LightBackground.png; sourceTree = "<group>"; };
+		B6AC9EA4138F79B8007CA640 /* MathGraph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MathGraph.png; path = res/MathGraph.png; sourceTree = "<group>"; };
+		B6AC9EA5138F79B8007CA640 /* StarsBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StarsBackground.png; path = res/StarsBackground.png; sourceTree = "<group>"; };
+		B6AC9EA6138F79B8007CA640 /* StarsForeground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StarsForeground.png; path = res/StarsForeground.png; sourceTree = "<group>"; };
+		B6AC9EB1138F7B35007CA640 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Data.plist; path = res/Data.plist; sourceTree = "<group>"; };
+		B6AC9EB7138F7D32007CA640 /* ChannelTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelTableViewController.h; sourceTree = "<group>"; };
+		B6AC9EB8138F7D32007CA640 /* ChannelTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelTableViewController.m; sourceTree = "<group>"; };
+		B6B51E3C138CA79E0093A49E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B6B51E3D138CA79E0093A49E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B6B51E3E138CA79E0093A49E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		B6B51F7E138CF69C0093A49E /* MainSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSubViewController.h; sourceTree = "<group>"; };
+		B6B51F7F138CF69C0093A49E /* MainSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSubViewController.m; sourceTree = "<group>"; };
+		B6B51F80138CF69C0093A49E /* MainSubViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainSubViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4995913971D8100FB1D69 /* GridSelectView.h */,
+				B6A4995A13971D8100FB1D69 /* GridSelectView.m */,
+				B6A3D44D1395D260007873E5 /* ScheduleView.h */,
+				B6A3D44E1395D260007873E5 /* ScheduleView.m */,
+				B6AC9E88138F7306007CA640 /* Cells */,
+				1D3623240D0F684500981E51 /* DVRPlayerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DVRPlayerAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* DVRPlayerViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* DVRPlayerViewController.m */,
+				B6B51E3C138CA79E0093A49E /* MainViewController.h */,
+				B6B51E3D138CA79E0093A49E /* MainViewController.m */,
+				B6B51E3E138CA79E0093A49E /* MainViewController.xib */,
+				B6B51F7E138CF69C0093A49E /* MainSubViewController.h */,
+				B6B51F7F138CF69C0093A49E /* MainSubViewController.m */,
+				B6B51F80138CF69C0093A49E /* MainSubViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DVRPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4996413971FD000FB1D69 /* kt_util.c */,
+				B6A4996513971FD000FB1D69 /* kt_util.h */,
+				32CA4F630368D1EE00C91783 /* DVRPlayer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6AC9EB1138F7B35007CA640 /* Data.plist */,
+				B6AC9E9D138F79B8007CA640 /* Baseball.png */,
+				B6AC9E9E138F79B8007CA640 /* Blocks.png */,
+				B6AC9E9F138F79B8007CA640 /* Checkers.png */,
+				B6AC9EA0138F79B8007CA640 /* DarkBackground.png */,
+				B6AC9EA1138F79B8007CA640 /* Dinner.png */,
+				B6AC9EA2138F79B8007CA640 /* Football.png */,
+				B6AC9EA3138F79B8007CA640 /* LightBackground.png */,
+				B6AC9EA4138F79B8007CA640 /* MathGraph.png */,
+				B6AC9EA5138F79B8007CA640 /* StarsBackground.png */,
+				B6AC9EA6138F79B8007CA640 /* StarsForeground.png */,
+				B6996A79138515DF00028895 /* btn_nor.png */,
+				B6996A7A138515DF00028895 /* btn_on.png */,
+				B6996A4A1385107500028895 /* background2.png */,
+				B6996A061385001300028895 /* user_name_MV.png */,
+				B6996A071385001300028895 /* user_name.png */,
+				B69969E71384F17A00028895 /* images.jpeg */,
+				2899E5210DE3E06400AC0155 /* DVRPlayerViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* DVRPlayer-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6AC9E88138F7306007CA640 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B6AC9EB7138F7D32007CA640 /* ChannelTableViewController.h */,
+				B6AC9EB8138F7D32007CA640 /* ChannelTableViewController.m */,
+				B6AC9E89138F740E007CA640 /* ChannelTableViewCell.h */,
+				B6AC9E8A138F740E007CA640 /* ChannelTableViewCell.m */,
+				B6AC9E8B138F740E007CA640 /* ChannelCellView.h */,
+				B6AC9E8C138F740E007CA640 /* ChannelCellView.m */,
+				B6AC9E8D138F740E007CA640 /* IndividualChannelCell.h */,
+				B6AC9E8E138F740E007CA640 /* IndividualChannelCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DVRPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DVRPlayer" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVRPlayer;
+			productName = DVRPlayer;
+			productReference = 1D6058910D05DD3D006BFB54 /* DVRPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DVRPlayer" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DVRPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* DVRPlayerViewController.xib in Resources */,
+				B69969E81384F17A00028895 /* images.jpeg in Resources */,
+				B6996A081385001300028895 /* user_name_MV.png in Resources */,
+				B6996A091385001300028895 /* user_name.png in Resources */,
+				B6996A4B1385107500028895 /* background2.png in Resources */,
+				B6996A7B138515DF00028895 /* btn_nor.png in Resources */,
+				B6996A7C138515DF00028895 /* btn_on.png in Resources */,
+				B6B51E40138CA79E0093A49E /* MainViewController.xib in Resources */,
+				B6B51F82138CF69C0093A49E /* MainSubViewController.xib in Resources */,
+				B6AC9EA7138F79B8007CA640 /* Baseball.png in Resources */,
+				B6AC9EA8138F79B8007CA640 /* Blocks.png in Resources */,
+				B6AC9EA9138F79B8007CA640 /* Checkers.png in Resources */,
+				B6AC9EAA138F79B8007CA640 /* DarkBackground.png in Resources */,
+				B6AC9EAB138F79B8007CA640 /* Dinner.png in Resources */,
+				B6AC9EAC138F79B8007CA640 /* Football.png in Resources */,
+				B6AC9EAD138F79B8007CA640 /* LightBackground.png in Resources */,
+				B6AC9EAE138F79B8007CA640 /* MathGraph.png in Resources */,
+				B6AC9EAF138F79B8007CA640 /* StarsBackground.png in Resources */,
+				B6AC9EB0138F79B8007CA640 /* StarsForeground.png in Resources */,
+				B6AC9EB2138F7B35007CA640 /* Data.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DVRPlayerAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* DVRPlayerViewController.m in Sources */,
+				B6B51E3F138CA79E0093A49E /* MainViewController.m in Sources */,
+				B6B51F81138CF69C0093A49E /* MainSubViewController.m in Sources */,
+				B6AC9E8F138F740E007CA640 /* ChannelTableViewCell.m in Sources */,
+				B6AC9E90138F740E007CA640 /* ChannelCellView.m in Sources */,
+				B6AC9E91138F740E007CA640 /* IndividualChannelCell.m in Sources */,
+				B6AC9EB9138F7D32007CA640 /* ChannelTableViewController.m in Sources */,
+				B6A3D44F1395D260007873E5 /* ScheduleView.m in Sources */,
+				B6A4995B13971D8100FB1D69 /* GridSelectView.m in Sources */,
+				B6A4996613971FD000FB1D69 /* kt_util.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DVRPlayer_Prefix.pch;
+				INFOPLIST_FILE = "DVRPlayer-Info.plist";
+				PRODUCT_NAME = DVRPlayer;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DVRPlayer_Prefix.pch;
+				INFOPLIST_FILE = "DVRPlayer-Info.plist";
+				PRODUCT_NAME = DVRPlayer;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DVRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DVRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

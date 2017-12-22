@@ -1,0 +1,116 @@
+
+
+<html>
+
+<head>
+
+<title>STUNT: NAT TCP Behaviour Testing</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+
+</head>
+
+<body>
+
+<div id="outer"><div id="banner"><div id="logo"><a class="img" href="http://www.cornell.edu"><img src="img/compfac_red.gif"></a></div>
+<div id="navbar"><span class="childpage"><a class="childpage" href="http://nutss.gforge.cis.cornell.edu/index.php">NUTSS</a> <a class="childpage insection" href="index.html">STUNT</a> <a class="childpage" href="http://nutss.gforge.cis.cornell.edu/publications.php">Publications</a> <a class="childpage" href="https://gforge.cis.cornell.edu/projects/nutss/">Project Page</a> <a class="childpage" href="http://gforge.cis.cornell.edu/frs/?group_id=15">Downloads</a></span></div>
+<div id="content">
+        <div id="menu">
+
+        <h1>Software</h1>
+        <ul>
+        <li>Client: <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=6">Windows</a>, <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=4">Linux</a></li>
+        <li>Server: <a href="http://gforge.cis.cornell.edu/frs/?group_id=15&release_id=4">Linux</a></li>
+        </ul>
+
+        <h1>Documentation</h1>
+        <ul>
+        <li><a href="stunt-client-installation.html">Running the Client</a></li>
+        <li><a href="stunt-client.html">Client Documentation</a></li>
+        <li><a href="stunt-server.html">Server Documentation</a></li>
+        <li><a href="stunt-faq.html">Frequently Asked Questions</a></li>
+        <li><a href="http://nutss.gforge.cis.cornell.edu/stunt-results.php">Survey Results</a></li>
+        </ul>
+
+        </div>
+        
+<h1>Running STUNT on Windows</h1>
+
+<ol>
+
+<li><a href="http://winpcap.polito.it/install/bin/WinPcap_3_1_beta4.exe">Download</a> and install WinPcap from winpcap.polito.it. <small>(<a href="https://gforge.cis.cornell.edu/frs/?group_id=15">mirror</a>)</small></li>
+
+<li><a href="https://gforge.cis.cornell.edu/frs/?group_id=15">Download</a> the client archive <code>stunt-0.1.zip</code> and unzip it onto your desktop.</li>
+
+<li>Run <code>run.bat</code> to start the test. If your firewall pops up a
+warning about network usage, please unblock STUNT so it may use the network. You
+will need to restart STUNT after unblocking it. </li>
+
+<li>If you encounter any errors, check the <a href="http://nutss.gforge.cis.cornell.edu/stunt-faq.html">FAQ</a> for possible solutions or email
+<a href="mailto:saikat%40cs.cornell.edu">saikat&#64;cs.cornell.edu</a>.</li>
+
+</ol>
+
+
+<h1>Running STUNT on Linux</h1>
+
+<ol>
+
+<li>Install <code>libpcap</code> using your distribution's package manager.</li>
+
+<li><a href="https://gforge.cis.cornell.edu/frs/?group_id=15">Download</a> the client archive <code>stunt-0.1.tar.bz2</code> and untar it.</li>
+
+<li>Run <code>run.sh</code> to start the test.</li>
+
+<li>If you encounter any errors, check the <a href="http://nutss.gforge.cis.cornell.edu/stunt-faq.html">FAQ</a> for possible solutions or email
+<a href="mailto:saikat%40cs.cornell.edu">saikat&#64;cs.cornell.edu</a>.</li>
+
+</ol>
+
+<p> The test will take around 3 hours to complete executing and will quietly
+run in the background without interfering with other processes. After it
+terminates, it will present the option of submitting your NAT's fingerprint for
+our analysis; we request that you choose to do so. It will then open a web
+browser to the submission website where you will be asked for your NATs brand,
+model and firmware number, and your email address so we may contact you in case
+we have further questions about your NAT. After running the test and submitting
+the results, you may delete the client software.</p>
+
+<h1>Compiling STUNT on Windows</h1>
+
+<ol>
+
+<li><a href="http://winpcap.polito.it/install/bin/wpdpack_3_1_beta4.zip">Download</a> and unzip the WinPcap developers pack from winpcap.polito.it.</li>
+
+<li><a href="https://gforge.cis.cornell.edu/frs/?group_id=15">Download</a> the client source archive <code>stunt-0.1-src.zip</code> and unzip it.</li>
+
+<li>Open the <code>stunt.sln</code> solution in Visual Studio .NET</li>
+
+<li>Change the additional include directories and additional linker directories to where the WinPcap include and library files reside.</li>
+
+<li>Compile the solution to generate <code>stunt.exe</code>
+
+</ol>
+
+<h1>Compiling STUNT on Linux</h1>
+
+<ol>
+
+<li>Install <code>libpcap</code> using your distribution's package
+manager.</li>
+
+<li><a href="https://gforge.cis.cornell.edu/frs/?group_id=15">Download</a> the client
+source archive <code>stunt-0.1-src.tar.bz2</code> and untar it.</li>
+
+<li>Change into the <code>stunt</code> directory and run <code>make</code> to
+build the client <code>stunt</code></li>
+
+<li>To build the server, install <code>iptables-devel</code> or development
+libraries that contain <code>libiptc.a</code> and <code>libipq.a</code>. Run
+<code>make stuntd</code> to build the server <code>stuntd</code></li>
+
+</ol>
+
+</div>
+</body>
+
+</html>

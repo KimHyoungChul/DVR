@@ -1,0 +1,9 @@
+Compiling
+---------
+cd src && make
+
+
+Running and help
+----------------
+Client: src/stunt --help
+Server: src/stuntd --help

@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* PlayerDVRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* PlayerDVRAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B61300BB1382579900209A4E /* kt_language_str.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61300AD1382579900209A4E /* kt_language_str.cpp */; };
+		B61300BC1382579900209A4E /* kt_language_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61300AF1382579900209A4E /* kt_language_util.cpp */; };
+		B61300BF1382579900209A4E /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61300B51382579900209A4E /* tinystr.cpp */; };
+		B61300C01382579900209A4E /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61300B71382579900209A4E /* tinyxml.cpp */; };
+		B61300C11382579900209A4E /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61300B91382579900209A4E /* tinyxmlerror.cpp */; };
+		B61300C21382579900209A4E /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61300BA1382579900209A4E /* tinyxmlparser.cpp */; };
+		B61300C5138257BD00209A4E /* Chinese Simplified.xml in Resources */ = {isa = PBXBuildFile; fileRef = B61300C3138257BD00209A4E /* Chinese Simplified.xml */; };
+		B61300C6138257BD00209A4E /* English.xml in Resources */ = {isa = PBXBuildFile; fileRef = B61300C4138257BD00209A4E /* English.xml */; };
+		B653A9FD132752C800AE96DE /* DvrSettingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B653A9FC132752C800AE96DE /* DvrSettingControl.m */; };
+		B654F3FE131C711800C4F007 /* AMBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = B654F3FB131C711800C4F007 /* AMBackground.m */; };
+		B654F3FF131C711800C4F007 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B654F3FD131C711800C4F007 /* AMDarkButtonCell.m */; };
+		B654F427131C946300C4F007 /* kt_core_handler.c in Sources */ = {isa = PBXBuildFile; fileRef = B654F423131C946300C4F007 /* kt_core_handler.c */; };
+		B654F428131C946300C4F007 /* kt_stream_playback.c in Sources */ = {isa = PBXBuildFile; fileRef = B654F425131C946300C4F007 /* kt_stream_playback.c */; };
+		B654F4BD131CDF1D00C4F007 /* VideoPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = B654F4BC131CDF1D00C4F007 /* VideoPreview.m */; };
+		B67F32D81341CE9200DF2E58 /* ScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67F32D71341CE9200DF2E58 /* ScheduleView.m */; };
+		B6805B0F13434FFB00E4CD55 /* MediaFileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B6805B0E13434FFB00E4CD55 /* MediaFileInfo.m */; };
+		B68068C31345C97700B49BC5 /* PlaybackProcessBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B68068C21345C97700B49BC5 /* PlaybackProcessBar.m */; };
+		B683B9A81340283500327CDE /* GridSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B683B9A71340283500327CDE /* GridSelectView.m */; };
+		B687C433132DA825005F97F2 /* UserManage.m in Sources */ = {isa = PBXBuildFile; fileRef = B687C432132DA825005F97F2 /* UserManage.m */; };
+		B687C436132DA95F005F97F2 /* DvrManage.m in Sources */ = {isa = PBXBuildFile; fileRef = B687C435132DA95F005F97F2 /* DvrManage.m */; };
+		B687DBFD133871C0002E7E54 /* APPL.icns in Resources */ = {isa = PBXBuildFile; fileRef = B687DBFC133871C0002E7E54 /* APPL.icns */; };
+		B687DC591338849A002E7E54 /* VideoPlayback.xib in Resources */ = {isa = PBXBuildFile; fileRef = B687DC581338849A002E7E54 /* VideoPlayback.xib */; };
+		B687DCC813389C02002E7E54 /* PlaybackController.m in Sources */ = {isa = PBXBuildFile; fileRef = B687DCC713389C02002E7E54 /* PlaybackController.m */; };
+		B687DCCC13389CA4002E7E54 /* PlaybackSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = B687DCCB13389CA4002E7E54 /* PlaybackSurface.m */; };
+		B68CCBF1134479F600761FF8 /* MediaFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68CCBF0134479F600761FF8 /* MediaFileController.m */; };
+		B68CCC11134484C500761FF8 /* kt_file_manage.c in Sources */ = {isa = PBXBuildFile; fileRef = B68CCC10134484C500761FF8 /* kt_file_manage.c */; };
+		B68CE25813527F3C006C178F /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = B68CE25613527F3C006C178F /* delete.png */; };
+		B68CE25913527F3C006C178F /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = B68CE25713527F3C006C178F /* download.png */; };
+		B68CE25B13527F4A006C178F /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = B68CE25A13527F4A006C178F /* history.png */; };
+		B68CE25D13527F5D006C178F /* open.png in Resources */ = {isa = PBXBuildFile; fileRef = B68CE25C13527F5D006C178F /* open.png */; };
+		B68CE26013527F72006C178F /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = B68CE25E13527F72006C178F /* refresh.png */; };
+		B68CE26113527F72006C178F /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = B68CE25F13527F72006C178F /* search.png */; };
+		B68FE2091364FF8F006436F7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68FE2081364FF8F006436F7 /* CoreAudio.framework */; };
+		B68FE20F1365008B006436F7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68FE20E1365008B006436F7 /* AudioToolbox.framework */; };
+		B690395E1332E836004B35FC /* kt_util.c in Sources */ = {isa = PBXBuildFile; fileRef = B690395D1332E836004B35FC /* kt_util.c */; };
+		B69039D11332F9D8004B35FC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B69039D01332F9D8004B35FC /* icon.png */; };
+		B6903A191333079B004B35FC /* kt_user_manage.c in Sources */ = {isa = PBXBuildFile; fileRef = B6903A181333079B004B35FC /* kt_user_manage.c */; };
+		B6903A1C133307B5004B35FC /* kt_dvr_manage.c in Sources */ = {isa = PBXBuildFile; fileRef = B6903A1B133307B5004B35FC /* kt_dvr_manage.c */; };
+		B695E5C91325D2DF00BCDA26 /* dvr_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5C61325D2DF00BCDA26 /* dvr_setting.png */; };
+		B695E5CA1325D2DF00BCDA26 /* four_channel.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5C71325D2DF00BCDA26 /* four_channel.png */; };
+		B695E5CB1325D2DF00BCDA26 /* increase.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5C81325D2DF00BCDA26 /* increase.png */; };
+		B695E5D11325D2ED00BCDA26 /* link_bak.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5CC1325D2ED00BCDA26 /* link_bak.png */; };
+		B695E5D21325D2ED00BCDA26 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5CD1325D2ED00BCDA26 /* lock.png */; };
+		B695E5D31325D2ED00BCDA26 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5CE1325D2ED00BCDA26 /* logout.png */; };
+		B695E5D41325D2ED00BCDA26 /* nine_channel.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5CF1325D2ED00BCDA26 /* nine_channel.png */; };
+		B695E5D51325D2ED00BCDA26 /* one_channel_bak.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5D01325D2ED00BCDA26 /* one_channel_bak.png */; };
+		B695E5DD1325D2FC00BCDA26 /* playback.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5D61325D2FC00BCDA26 /* playback.png */; };
+		B695E5DE1325D2FC00BCDA26 /* ptz_down.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5D71325D2FC00BCDA26 /* ptz_down.png */; };
+		B695E5DF1325D2FC00BCDA26 /* ptz_left.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5D81325D2FC00BCDA26 /* ptz_left.png */; };
+		B695E5E01325D2FC00BCDA26 /* ptz_mid.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5D91325D2FC00BCDA26 /* ptz_mid.png */; };
+		B695E5E11325D2FC00BCDA26 /* ptz_right.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5DA1325D2FC00BCDA26 /* ptz_right.png */; };
+		B695E5E21325D2FC00BCDA26 /* ptz_up.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5DB1325D2FC00BCDA26 /* ptz_up.png */; };
+		B695E5E31325D2FC00BCDA26 /* record_bak.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5DC1325D2FC00BCDA26 /* record_bak.png */; };
+		B695E5EA1325D30A00BCDA26 /* reduce.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5E41325D30A00BCDA26 /* reduce.png */; };
+		B695E5EB1325D30A00BCDA26 /* sisteen_channel.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5E51325D30A00BCDA26 /* sisteen_channel.png */; };
+		B695E5EC1325D30A00BCDA26 /* switch.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5E61325D30A00BCDA26 /* switch.png */; };
+		B695E5ED1325D30A00BCDA26 /* switch2.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5E71325D30A00BCDA26 /* switch2.png */; };
+		B695E5EE1325D30A00BCDA26 /* sys_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5E81325D30A00BCDA26 /* sys_setting.png */; };
+		B695E5EF1325D30A00BCDA26 /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5E91325D30A00BCDA26 /* unlock.png */; };
+		B695E5F11325D32400BCDA26 /* capture_bak.png in Resources */ = {isa = PBXBuildFile; fileRef = B695E5F01325D32400BCDA26 /* capture_bak.png */; };
+		B695E6B513262BBC00BCDA26 /* DvrSetting.xib in Resources */ = {isa = PBXBuildFile; fileRef = B695E6B413262BBC00BCDA26 /* DvrSetting.xib */; };
+		B69C364F1339FABE00BF30A4 /* fast_play.png in Resources */ = {isa = PBXBuildFile; fileRef = B69C364E1339FABE00BF30A4 /* fast_play.png */; };
+		B69C36511339FACF00BF30A4 /* frame_play.png in Resources */ = {isa = PBXBuildFile; fileRef = B69C36501339FACF00BF30A4 /* frame_play.png */; };
+		B69C36531339FAE100BF30A4 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B69C36521339FAE100BF30A4 /* pause.png */; };
+		B69C36551339FAEE00BF30A4 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = B69C36541339FAEE00BF30A4 /* play.png */; };
+		B69C36581339FAFB00BF30A4 /* slow_play.png in Resources */ = {isa = PBXBuildFile; fileRef = B69C36561339FAFB00BF30A4 /* slow_play.png */; };
+		B69C36591339FAFB00BF30A4 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = B69C36571339FAFB00BF30A4 /* stop.png */; };
+		B69C5306131DDACD000119B3 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69C5305131DDACD000119B3 /* VideoController.m */; };
+		B6A0635413C16769002A303B /* rec_Alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A0635313C16769002A303B /* rec_Alarm.png */; };
+		B6A0635613C16775002A303B /* rec_Common.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A0635513C16775002A303B /* rec_Common.png */; };
+		B6A0635D13C1681E002A303B /* rec_Play.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A0635B13C1681E002A303B /* rec_Play.png */; };
+		B6A0635E13C1681E002A303B /* rec_Unknow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A0635C13C1681E002A303B /* rec_Unknow.png */; };
+		B6A1698713932A2D00F53DA1 /* VideoPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A1698613932A2D00F53DA1 /* VideoPreview.xib */; };
+		B6AC0EDD1324D86300E6EF78 /* one_channel.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC0EDA1324D86300E6EF78 /* one_channel.png */; };
+		B6AC0EDE1324D86300E6EF78 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC0EDB1324D86300E6EF78 /* record.png */; };
+		B6AC0EE01324D87200E6EF78 /* capture.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC0EDF1324D87200E6EF78 /* capture.png */; };
+		B6AC0EEE1324DCE200E6EF78 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AC0EED1324DCE200E6EF78 /* add.png */; };
+		B6B1DF22131F9ED00020DC91 /* left_move.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B1DF20131F9ED00020DC91 /* left_move.png */; };
+		B6B1DF23131F9ED00020DC91 /* left_move2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B1DF21131F9ED00020DC91 /* left_move2.png */; };
+		B6B1DF26131FA03A0020DC91 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B1DF25131FA03A0020DC91 /* CustomButton.m */; };
+		B6C46672131B76AB00A05BBF /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C46671131B76AB00A05BBF /* Login.m */; };
+		B6CC880613BABE0B00CEF557 /* OffLinePlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CC880513BABE0B00CEF557 /* OffLinePlay.xib */; };
+		B6CC886113BAD31400CEF557 /* OffLinePlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC886013BAD31400CEF557 /* OffLinePlayController.m */; };
+		B6CC88EA13BAFEE900CEF557 /* OffLineFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC88E913BAFEE900CEF557 /* OffLineFileController.m */; };
+		B6E4DF6B14BC1DFB00B87E56 /* KtEditFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E4DF6A14BC1DFB00B87E56 /* KtEditFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* PlayerDVRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDVRAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* PlayerDVRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDVRAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* DVRPlayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVRPlayer_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* DVRPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DVRPlayer-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* DVRPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVRPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61300AD1382579900209A4E /* kt_language_str.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kt_language_str.cpp; sourceTree = "<group>"; };
+		B61300AE1382579900209A4E /* kt_language_str.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kt_language_str.h; sourceTree = "<group>"; };
+		B61300AF1382579900209A4E /* kt_language_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kt_language_util.cpp; sourceTree = "<group>"; };
+		B61300B01382579900209A4E /* kt_language_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kt_language_util.h; sourceTree = "<group>"; };
+		B61300B51382579900209A4E /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		B61300B61382579900209A4E /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
+		B61300B71382579900209A4E /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		B61300B81382579900209A4E /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		B61300B91382579900209A4E /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		B61300BA1382579900209A4E /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		B61300C3138257BD00209A4E /* Chinese Simplified.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Chinese Simplified.xml"; path = "KtLanguage/xml/Chinese Simplified.xml"; sourceTree = "<group>"; };
+		B61300C4138257BD00209A4E /* English.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = English.xml; path = KtLanguage/xml/English.xml; sourceTree = "<group>"; };
+		B653A9FB132752C800AE96DE /* DvrSettingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvrSettingControl.h; sourceTree = "<group>"; };
+		B653A9FC132752C800AE96DE /* DvrSettingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DvrSettingControl.m; sourceTree = "<group>"; };
+		B654F3FA131C711800C4F007 /* AMBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBackground.h; sourceTree = "<group>"; };
+		B654F3FB131C711800C4F007 /* AMBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBackground.m; sourceTree = "<group>"; };
+		B654F3FC131C711800C4F007 /* AMDarkButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDarkButtonCell.h; sourceTree = "<group>"; };
+		B654F3FD131C711800C4F007 /* AMDarkButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDarkButtonCell.m; sourceTree = "<group>"; };
+		B654F423131C946300C4F007 /* kt_core_handler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kt_core_handler.c; path = shared/kt_core_handler.c; sourceTree = "<group>"; };
+		B654F424131C946300C4F007 /* kt_core_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kt_core_handler.h; path = shared/kt_core_handler.h; sourceTree = "<group>"; };
+		B654F425131C946300C4F007 /* kt_stream_playback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kt_stream_playback.c; path = shared/kt_stream_playback.c; sourceTree = "<group>"; };
+		B654F426131C946300C4F007 /* kt_stream_playback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kt_stream_playback.h; path = shared/kt_stream_playback.h; sourceTree = "<group>"; };
+		B654F42B131C947600C4F007 /* srv_com_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srv_com_handler.h; sourceTree = "<group>"; };
+		B654F42C131C947600C4F007 /* srv_rc_pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srv_rc_pool.h; sourceTree = "<group>"; };
+		B654F42D131C947600C4F007 /* srv_vs_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srv_vs_file.h; sourceTree = "<group>"; };
+		B654F42E131C947600C4F007 /* srv_vs_vms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srv_vs_vms.h; sourceTree = "<group>"; };
+		B654F42F131C947600C4F007 /* srv_vs_vmsdvr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srv_vs_vmsdvr.h; sourceTree = "<group>"; };
+		B654F430131C947600C4F007 /* srv_vs_vmstcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srv_vs_vmstcp.h; sourceTree = "<group>"; };
+		B654F431131C947600C4F007 /* ucm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucm.h; sourceTree = "<group>"; };
+		B654F435131C947600C4F007 /* up_sys_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = up_sys_config.h; sourceTree = "<group>"; };
+		B654F439131C947600C4F007 /* up_sys_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = up_sys_log.h; sourceTree = "<group>"; };
+		B654F43B131C947600C4F007 /* up_sys_sock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = up_sys_sock.h; sourceTree = "<group>"; };
+		B654F43D131C947600C4F007 /* up_sys_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = up_sys_util.h; sourceTree = "<group>"; };
+		B654F43E131C947600C4F007 /* up_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = up_types.h; sourceTree = "<group>"; };
+		B654F43F131C947600C4F007 /* up_ui_context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = up_ui_context.h; sourceTree = "<group>"; };
+		B654F440131C947600C4F007 /* up_ui_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = up_ui_core.h; sourceTree = "<group>"; };
+		B654F441131C947600C4F007 /* util_circle_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util_circle_list.h; sourceTree = "<group>"; };
+		B654F444131C947600C4F007 /* Vms_stddef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vms_stddef.h; sourceTree = "<group>"; };
+		B654F4BB131CDF1D00C4F007 /* VideoPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPreview.h; sourceTree = "<group>"; };
+		B654F4BC131CDF1D00C4F007 /* VideoPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPreview.m; sourceTree = "<group>"; };
+		B65B875B1330A15F0040D7C0 /* kt_core_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kt_core_config.h; sourceTree = "<group>"; };
+		B67F32D61341CE9200DF2E58 /* ScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleView.h; sourceTree = "<group>"; };
+		B67F32D71341CE9200DF2E58 /* ScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleView.m; sourceTree = "<group>"; };
+		B6805B0D13434FFB00E4CD55 /* MediaFileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFileInfo.h; sourceTree = "<group>"; };
+		B6805B0E13434FFB00E4CD55 /* MediaFileInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaFileInfo.m; sourceTree = "<group>"; };
+		B68068C11345C97700B49BC5 /* PlaybackProcessBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaybackProcessBar.h; sourceTree = "<group>"; };
+		B68068C21345C97700B49BC5 /* PlaybackProcessBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaybackProcessBar.m; sourceTree = "<group>"; };
+		B683B9A61340283500327CDE /* GridSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridSelectView.h; sourceTree = "<group>"; };
+		B683B9A71340283500327CDE /* GridSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridSelectView.m; sourceTree = "<group>"; };
+		B687C431132DA825005F97F2 /* UserManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManage.h; sourceTree = "<group>"; };
+		B687C432132DA825005F97F2 /* UserManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManage.m; sourceTree = "<group>"; };
+		B687C434132DA95F005F97F2 /* DvrManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvrManage.h; sourceTree = "<group>"; };
+		B687C435132DA95F005F97F2 /* DvrManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DvrManage.m; sourceTree = "<group>"; };
+		B687DBFC133871C0002E7E54 /* APPL.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = APPL.icns; path = res/APPL.icns; sourceTree = "<group>"; };
+		B687DC581338849A002E7E54 /* VideoPlayback.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoPlayback.xib; sourceTree = "<group>"; };
+		B687DCC613389C02002E7E54 /* PlaybackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaybackController.h; sourceTree = "<group>"; };
+		B687DCC713389C02002E7E54 /* PlaybackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaybackController.m; sourceTree = "<group>"; };
+		B687DCCA13389CA4002E7E54 /* PlaybackSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaybackSurface.h; sourceTree = "<group>"; };
+		B687DCCB13389CA4002E7E54 /* PlaybackSurface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaybackSurface.m; sourceTree = "<group>"; };
+		B68CCBEF134479F600761FF8 /* MediaFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFileController.h; sourceTree = "<group>"; };
+		B68CCBF0134479F600761FF8 /* MediaFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaFileController.m; sourceTree = "<group>"; };
+		B68CCC0F134484C500761FF8 /* kt_file_manage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kt_file_manage.h; sourceTree = "<group>"; };
+		B68CCC10134484C500761FF8 /* kt_file_manage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kt_file_manage.c; sourceTree = "<group>"; };
+		B68CE25613527F3C006C178F /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete.png; path = res/delete.png; sourceTree = "<group>"; };
+		B68CE25713527F3C006C178F /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = download.png; path = res/download.png; sourceTree = "<group>"; };
+		B68CE25A13527F4A006C178F /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = history.png; path = res/history.png; sourceTree = "<group>"; };
+		B68CE25C13527F5D006C178F /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = open.png; path = res/open.png; sourceTree = "<group>"; };
+		B68CE25E13527F72006C178F /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = res/refresh.png; sourceTree = "<group>"; };
+		B68CE25F13527F72006C178F /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = res/search.png; sourceTree = "<group>"; };
+		B68FE2081364FF8F006436F7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B68FE20E1365008B006436F7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B690395C1332E836004B35FC /* kt_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kt_util.h; sourceTree = "<group>"; };
+		B690395D1332E836004B35FC /* kt_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kt_util.c; sourceTree = "<group>"; };
+		B69039D01332F9D8004B35FC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = res/icon.png; sourceTree = "<group>"; };
+		B6903A171333079B004B35FC /* kt_user_manage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kt_user_manage.h; sourceTree = "<group>"; };
+		B6903A181333079B004B35FC /* kt_user_manage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kt_user_manage.c; sourceTree = "<group>"; };
+		B6903A1A133307B5004B35FC /* kt_dvr_manage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kt_dvr_manage.h; sourceTree = "<group>"; };
+		B6903A1B133307B5004B35FC /* kt_dvr_manage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kt_dvr_manage.c; sourceTree = "<group>"; };
+		B695E5C61325D2DF00BCDA26 /* dvr_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dvr_setting.png; path = res/dvr_setting.png; sourceTree = "<group>"; };
+		B695E5C71325D2DF00BCDA26 /* four_channel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = four_channel.png; path = res/four_channel.png; sourceTree = "<group>"; };
+		B695E5C81325D2DF00BCDA26 /* increase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = increase.png; path = res/increase.png; sourceTree = "<group>"; };
+		B695E5CC1325D2ED00BCDA26 /* link_bak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_bak.png; path = res/link_bak.png; sourceTree = "<group>"; };
+		B695E5CD1325D2ED00BCDA26 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = res/lock.png; sourceTree = "<group>"; };
+		B695E5CE1325D2ED00BCDA26 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logout.png; path = res/logout.png; sourceTree = "<group>"; };
+		B695E5CF1325D2ED00BCDA26 /* nine_channel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nine_channel.png; path = res/nine_channel.png; sourceTree = "<group>"; };
+		B695E5D01325D2ED00BCDA26 /* one_channel_bak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = one_channel_bak.png; path = res/one_channel_bak.png; sourceTree = "<group>"; };
+		B695E5D61325D2FC00BCDA26 /* playback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playback.png; path = res/playback.png; sourceTree = "<group>"; };
+		B695E5D71325D2FC00BCDA26 /* ptz_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ptz_down.png; path = res/ptz_down.png; sourceTree = "<group>"; };
+		B695E5D81325D2FC00BCDA26 /* ptz_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ptz_left.png; path = res/ptz_left.png; sourceTree = "<group>"; };
+		B695E5D91325D2FC00BCDA26 /* ptz_mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ptz_mid.png; path = res/ptz_mid.png; sourceTree = "<group>"; };
+		B695E5DA1325D2FC00BCDA26 /* ptz_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ptz_right.png; path = res/ptz_right.png; sourceTree = "<group>"; };
+		B695E5DB1325D2FC00BCDA26 /* ptz_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ptz_up.png; path = res/ptz_up.png; sourceTree = "<group>"; };
+		B695E5DC1325D2FC00BCDA26 /* record_bak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record_bak.png; path = res/record_bak.png; sourceTree = "<group>"; };
+		B695E5E41325D30A00BCDA26 /* reduce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reduce.png; path = res/reduce.png; sourceTree = "<group>"; };
+		B695E5E51325D30A00BCDA26 /* sisteen_channel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sisteen_channel.png; path = res/sisteen_channel.png; sourceTree = "<group>"; };
+		B695E5E61325D30A00BCDA26 /* switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = switch.png; path = res/switch.png; sourceTree = "<group>"; };
+		B695E5E71325D30A00BCDA26 /* switch2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = switch2.png; path = res/switch2.png; sourceTree = "<group>"; };
+		B695E5E81325D30A00BCDA26 /* sys_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sys_setting.png; path = res/sys_setting.png; sourceTree = "<group>"; };
+		B695E5E91325D30A00BCDA26 /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unlock.png; path = res/unlock.png; sourceTree = "<group>"; };
+		B695E5F01325D32400BCDA26 /* capture_bak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = capture_bak.png; path = res/capture_bak.png; sourceTree = "<group>"; };
+		B695E6B413262BBC00BCDA26 /* DvrSetting.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DvrSetting.xib; sourceTree = "<group>"; };
+		B69C364E1339FABE00BF30A4 /* fast_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fast_play.png; path = res/fast_play.png; sourceTree = "<group>"; };
+		B69C36501339FACF00BF30A4 /* frame_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame_play.png; path = res/frame_play.png; sourceTree = "<group>"; };
+		B69C36521339FAE100BF30A4 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = res/pause.png; sourceTree = "<group>"; };
+		B69C36541339FAEE00BF30A4 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = res/play.png; sourceTree = "<group>"; };
+		B69C36561339FAFB00BF30A4 /* slow_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slow_play.png; path = res/slow_play.png; sourceTree = "<group>"; };
+		B69C36571339FAFB00BF30A4 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = res/stop.png; sourceTree = "<group>"; };
+		B69C5304131DDACD000119B3 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		B69C5305131DDACD000119B3 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		B6A0635313C16769002A303B /* rec_Alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rec_Alarm.png; path = res/rec_Alarm.png; sourceTree = "<group>"; };
+		B6A0635513C16775002A303B /* rec_Common.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rec_Common.png; path = res/rec_Common.png; sourceTree = "<group>"; };
+		B6A0635B13C1681E002A303B /* rec_Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rec_Play.png; path = res/rec_Play.png; sourceTree = "<group>"; };
+		B6A0635C13C1681E002A303B /* rec_Unknow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rec_Unknow.png; path = res/rec_Unknow.png; sourceTree = "<group>"; };
+		B6AC0EDA1324D86300E6EF78 /* one_channel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = one_channel.png; path = res/one_channel.png; sourceTree = "<group>"; };
+		B6AC0EDB1324D86300E6EF78 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record.png; path = res/record.png; sourceTree = "<group>"; };
+		B6AC0EDF1324D87200E6EF78 /* capture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = capture.png; path = res/capture.png; sourceTree = "<group>"; };
+		B6AC0EED1324DCE200E6EF78 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = res/add.png; sourceTree = "<group>"; };
+		B6B1DF20131F9ED00020DC91 /* left_move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left_move.png; path = res/left_move.png; sourceTree = "<group>"; };
+		B6B1DF21131F9ED00020DC91 /* left_move2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left_move2.png; path = res/left_move2.png; sourceTree = "<group>"; };
+		B6B1DF24131FA03A0020DC91 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		B6B1DF25131FA03A0020DC91 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		B6C46670131B76AB00A05BBF /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		B6C46671131B76AB00A05BBF /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		B6C46682131B7B6200A05BBF /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/VideoPreview.xib; sourceTree = "<group>"; };
+		B6CC880513BABE0B00CEF557 /* OffLinePlay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffLinePlay.xib; sourceTree = "<group>"; };
+		B6CC885F13BAD31400CEF557 /* OffLinePlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffLinePlayController.h; sourceTree = "<group>"; };
+		B6CC886013BAD31400CEF557 /* OffLinePlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffLinePlayController.m; sourceTree = "<group>"; };
+		B6CC88E813BAFEE900CEF557 /* OffLineFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffLineFileController.h; sourceTree = "<group>"; };
+		B6CC88E913BAFEE900CEF557 /* OffLineFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffLineFileController.m; sourceTree = "<group>"; };
+		B6E4DF6914BC1DFB00B87E56 /* KtEditFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KtEditFormatter.h; sourceTree = "<group>"; };
+		B6E4DF6A14BC1DFB00B87E56 /* KtEditFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KtEditFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				B68FE2091364FF8F006436F7 /* CoreAudio.framework in Frameworks */,
+				B68FE20F1365008B006436F7 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B654F4BB131CDF1D00C4F007 /* VideoPreview.h */,
+				B654F4BC131CDF1D00C4F007 /* VideoPreview.m */,
+				B654F3FA131C711800C4F007 /* AMBackground.h */,
+				B654F3FB131C711800C4F007 /* AMBackground.m */,
+				B654F3FC131C711800C4F007 /* AMDarkButtonCell.h */,
+				B654F3FD131C711800C4F007 /* AMDarkButtonCell.m */,
+				256AC3D80F4B6AC300CF3369 /* PlayerDVRAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* PlayerDVRAppDelegate.m */,
+				B6C46670131B76AB00A05BBF /* Login.h */,
+				B6C46671131B76AB00A05BBF /* Login.m */,
+				B69C5304131DDACD000119B3 /* VideoController.h */,
+				B69C5305131DDACD000119B3 /* VideoController.m */,
+				B6B1DF24131FA03A0020DC91 /* CustomButton.h */,
+				B6B1DF25131FA03A0020DC91 /* CustomButton.m */,
+				B653A9FB132752C800AE96DE /* DvrSettingControl.h */,
+				B653A9FC132752C800AE96DE /* DvrSettingControl.m */,
+				B687C431132DA825005F97F2 /* UserManage.h */,
+				B687C432132DA825005F97F2 /* UserManage.m */,
+				B687C434132DA95F005F97F2 /* DvrManage.h */,
+				B687C435132DA95F005F97F2 /* DvrManage.m */,
+				B687DCC613389C02002E7E54 /* PlaybackController.h */,
+				B687DCC713389C02002E7E54 /* PlaybackController.m */,
+				B687DCCA13389CA4002E7E54 /* PlaybackSurface.h */,
+				B687DCCB13389CA4002E7E54 /* PlaybackSurface.m */,
+				B683B9A61340283500327CDE /* GridSelectView.h */,
+				B683B9A71340283500327CDE /* GridSelectView.m */,
+				B67F32D61341CE9200DF2E58 /* ScheduleView.h */,
+				B67F32D71341CE9200DF2E58 /* ScheduleView.m */,
+				B6805B0D13434FFB00E4CD55 /* MediaFileInfo.h */,
+				B6805B0E13434FFB00E4CD55 /* MediaFileInfo.m */,
+				B68CCBEF134479F600761FF8 /* MediaFileController.h */,
+				B68CCBF0134479F600761FF8 /* MediaFileController.m */,
+				B68068C11345C97700B49BC5 /* PlaybackProcessBar.h */,
+				B68068C21345C97700B49BC5 /* PlaybackProcessBar.m */,
+				B6CC885F13BAD31400CEF557 /* OffLinePlayController.h */,
+				B6CC886013BAD31400CEF557 /* OffLinePlayController.m */,
+				B6CC88E813BAFEE900CEF557 /* OffLineFileController.h */,
+				B6CC88E913BAFEE900CEF557 /* OffLineFileController.m */,
+				B6E4DF6914BC1DFB00B87E56 /* KtEditFormatter.h */,
+				B6E4DF6A14BC1DFB00B87E56 /* KtEditFormatter.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* DVRPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* PlayerDVR */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = PlayerDVR;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B61300AC1382579900209A4E /* KtLanguage */,
+				B654F429131C947600C4F007 /* include */,
+				B654F423131C946300C4F007 /* kt_core_handler.c */,
+				B654F424131C946300C4F007 /* kt_core_handler.h */,
+				B654F425131C946300C4F007 /* kt_stream_playback.c */,
+				B654F426131C946300C4F007 /* kt_stream_playback.h */,
+				256AC3F00F4B6AF500CF3369 /* DVRPlayer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				B65B875B1330A15F0040D7C0 /* kt_core_config.h */,
+				B690395C1332E836004B35FC /* kt_util.h */,
+				B690395D1332E836004B35FC /* kt_util.c */,
+				B6903A171333079B004B35FC /* kt_user_manage.h */,
+				B6903A181333079B004B35FC /* kt_user_manage.c */,
+				B6903A1A133307B5004B35FC /* kt_dvr_manage.h */,
+				B6903A1B133307B5004B35FC /* kt_dvr_manage.c */,
+				B68CCC0F134484C500761FF8 /* kt_file_manage.h */,
+				B68CCC10134484C500761FF8 /* kt_file_manage.c */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6A0635B13C1681E002A303B /* rec_Play.png */,
+				B6A0635C13C1681E002A303B /* rec_Unknow.png */,
+				B6A0635513C16775002A303B /* rec_Common.png */,
+				B6A0635313C16769002A303B /* rec_Alarm.png */,
+				B6CC880513BABE0B00CEF557 /* OffLinePlay.xib */,
+				B61300C3138257BD00209A4E /* Chinese Simplified.xml */,
+				B61300C4138257BD00209A4E /* English.xml */,
+				B68CE25E13527F72006C178F /* refresh.png */,
+				B68CE25F13527F72006C178F /* search.png */,
+				B68CE25C13527F5D006C178F /* open.png */,
+				B68CE25A13527F4A006C178F /* history.png */,
+				B68CE25613527F3C006C178F /* delete.png */,
+				B68CE25713527F3C006C178F /* download.png */,
+				B69C36561339FAFB00BF30A4 /* slow_play.png */,
+				B69C36571339FAFB00BF30A4 /* stop.png */,
+				B69C36541339FAEE00BF30A4 /* play.png */,
+				B69C36521339FAE100BF30A4 /* pause.png */,
+				B69C36501339FACF00BF30A4 /* frame_play.png */,
+				B69C364E1339FABE00BF30A4 /* fast_play.png */,
+				B687DC581338849A002E7E54 /* VideoPlayback.xib */,
+				B687DBFC133871C0002E7E54 /* APPL.icns */,
+				B69039D01332F9D8004B35FC /* icon.png */,
+				B695E6B413262BBC00BCDA26 /* DvrSetting.xib */,
+				B695E5F01325D32400BCDA26 /* capture_bak.png */,
+				B695E5E41325D30A00BCDA26 /* reduce.png */,
+				B695E5E51325D30A00BCDA26 /* sisteen_channel.png */,
+				B695E5E61325D30A00BCDA26 /* switch.png */,
+				B695E5E71325D30A00BCDA26 /* switch2.png */,
+				B695E5E81325D30A00BCDA26 /* sys_setting.png */,
+				B695E5E91325D30A00BCDA26 /* unlock.png */,
+				B695E5D61325D2FC00BCDA26 /* playback.png */,
+				B695E5D71325D2FC00BCDA26 /* ptz_down.png */,
+				B695E5D81325D2FC00BCDA26 /* ptz_left.png */,
+				B695E5D91325D2FC00BCDA26 /* ptz_mid.png */,
+				B695E5DA1325D2FC00BCDA26 /* ptz_right.png */,
+				B695E5DB1325D2FC00BCDA26 /* ptz_up.png */,
+				B695E5DC1325D2FC00BCDA26 /* record_bak.png */,
+				B695E5CC1325D2ED00BCDA26 /* link_bak.png */,
+				B695E5CD1325D2ED00BCDA26 /* lock.png */,
+				B695E5CE1325D2ED00BCDA26 /* logout.png */,
+				B695E5CF1325D2ED00BCDA26 /* nine_channel.png */,
+				B695E5D01325D2ED00BCDA26 /* one_channel_bak.png */,
+				B695E5C61325D2DF00BCDA26 /* dvr_setting.png */,
+				B695E5C71325D2DF00BCDA26 /* four_channel.png */,
+				B695E5C81325D2DF00BCDA26 /* increase.png */,
+				B6AC0EED1324DCE200E6EF78 /* add.png */,
+				B6AC0EDF1324D87200E6EF78 /* capture.png */,
+				B6AC0EDA1324D86300E6EF78 /* one_channel.png */,
+				B6AC0EDB1324D86300E6EF78 /* record.png */,
+				B6B1DF20131F9ED00020DC91 /* left_move.png */,
+				B6B1DF21131F9ED00020DC91 /* left_move2.png */,
+				8D1107310486CEB800E47090 /* DVRPlayer-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				B6A1698613932A2D00F53DA1 /* VideoPreview.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				B68FE2081364FF8F006436F7 /* CoreAudio.framework */,
+				B68FE20E1365008B006436F7 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B61300AC1382579900209A4E /* KtLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				B61300AD1382579900209A4E /* kt_language_str.cpp */,
+				B61300AE1382579900209A4E /* kt_language_str.h */,
+				B61300AF1382579900209A4E /* kt_language_util.cpp */,
+				B61300B01382579900209A4E /* kt_language_util.h */,
+				B61300B41382579900209A4E /* xmlParser */,
+			);
+			path = KtLanguage;
+			sourceTree = "<group>";
+		};
+		B61300B41382579900209A4E /* xmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				B61300B51382579900209A4E /* tinystr.cpp */,
+				B61300B61382579900209A4E /* tinystr.h */,
+				B61300B71382579900209A4E /* tinyxml.cpp */,
+				B61300B81382579900209A4E /* tinyxml.h */,
+				B61300B91382579900209A4E /* tinyxmlerror.cpp */,
+				B61300BA1382579900209A4E /* tinyxmlparser.cpp */,
+			);
+			path = xmlParser;
+			sourceTree = "<group>";
+		};
+		B654F429131C947600C4F007 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B654F42B131C947600C4F007 /* srv_com_handler.h */,
+				B654F42C131C947600C4F007 /* srv_rc_pool.h */,
+				B654F42D131C947600C4F007 /* srv_vs_file.h */,
+				B654F42E131C947600C4F007 /* srv_vs_vms.h */,
+				B654F42F131C947600C4F007 /* srv_vs_vmsdvr.h */,
+				B654F430131C947600C4F007 /* srv_vs_vmstcp.h */,
+				B654F431131C947600C4F007 /* ucm.h */,
+				B654F435131C947600C4F007 /* up_sys_config.h */,
+				B654F439131C947600C4F007 /* up_sys_log.h */,
+				B654F43B131C947600C4F007 /* up_sys_sock.h */,
+				B654F43D131C947600C4F007 /* up_sys_util.h */,
+				B654F43E131C947600C4F007 /* up_types.h */,
+				B654F43F131C947600C4F007 /* up_ui_context.h */,
+				B654F440131C947600C4F007 /* up_ui_core.h */,
+				B654F441131C947600C4F007 /* util_circle_list.h */,
+				B654F444131C947600C4F007 /* Vms_stddef.h */,
+			);
+			name = include;
+			path = shared/core/include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* DVRPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DVRPlayer" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVRPlayer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PlayerDVR;
+			productReference = 8D1107320486CEB800E47090 /* DVRPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = KangTop;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DVRPlayer" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* PlayerDVR */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* DVRPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				B6A1698713932A2D00F53DA1 /* VideoPreview.xib in Resources */,
+				B6B1DF22131F9ED00020DC91 /* left_move.png in Resources */,
+				B6B1DF23131F9ED00020DC91 /* left_move2.png in Resources */,
+				B6AC0EDD1324D86300E6EF78 /* one_channel.png in Resources */,
+				B6AC0EDE1324D86300E6EF78 /* record.png in Resources */,
+				B6AC0EE01324D87200E6EF78 /* capture.png in Resources */,
+				B6AC0EEE1324DCE200E6EF78 /* add.png in Resources */,
+				B695E5C91325D2DF00BCDA26 /* dvr_setting.png in Resources */,
+				B695E5CA1325D2DF00BCDA26 /* four_channel.png in Resources */,
+				B695E5CB1325D2DF00BCDA26 /* increase.png in Resources */,
+				B695E5D11325D2ED00BCDA26 /* link_bak.png in Resources */,
+				B695E5D21325D2ED00BCDA26 /* lock.png in Resources */,
+				B695E5D31325D2ED00BCDA26 /* logout.png in Resources */,
+				B695E5D41325D2ED00BCDA26 /* nine_channel.png in Resources */,
+				B695E5D51325D2ED00BCDA26 /* one_channel_bak.png in Resources */,
+				B695E5DD1325D2FC00BCDA26 /* playback.png in Resources */,
+				B695E5DE1325D2FC00BCDA26 /* ptz_down.png in Resources */,
+				B695E5DF1325D2FC00BCDA26 /* ptz_left.png in Resources */,
+				B695E5E01325D2FC00BCDA26 /* ptz_mid.png in Resources */,
+				B695E5E11325D2FC00BCDA26 /* ptz_right.png in Resources */,
+				B695E5E21325D2FC00BCDA26 /* ptz_up.png in Resources */,
+				B695E5E31325D2FC00BCDA26 /* record_bak.png in Resources */,
+				B695E5EA1325D30A00BCDA26 /* reduce.png in Resources */,
+				B695E5EB1325D30A00BCDA26 /* sisteen_channel.png in Resources */,
+				B695E5EC1325D30A00BCDA26 /* switch.png in Resources */,
+				B695E5ED1325D30A00BCDA26 /* switch2.png in Resources */,
+				B695E5EE1325D30A00BCDA26 /* sys_setting.png in Resources */,
+				B695E5EF1325D30A00BCDA26 /* unlock.png in Resources */,
+				B695E5F11325D32400BCDA26 /* capture_bak.png in Resources */,
+				B695E6B513262BBC00BCDA26 /* DvrSetting.xib in Resources */,
+				B69039D11332F9D8004B35FC /* icon.png in Resources */,
+				B687DBFD133871C0002E7E54 /* APPL.icns in Resources */,
+				B687DC591338849A002E7E54 /* VideoPlayback.xib in Resources */,
+				B69C364F1339FABE00BF30A4 /* fast_play.png in Resources */,
+				B69C36511339FACF00BF30A4 /* frame_play.png in Resources */,
+				B69C36531339FAE100BF30A4 /* pause.png in Resources */,
+				B69C36551339FAEE00BF30A4 /* play.png in Resources */,
+				B69C36581339FAFB00BF30A4 /* slow_play.png in Resources */,
+				B69C36591339FAFB00BF30A4 /* stop.png in Resources */,
+				B68CE25813527F3C006C178F /* delete.png in Resources */,
+				B68CE25913527F3C006C178F /* download.png in Resources */,
+				B68CE25B13527F4A006C178F /* history.png in Resources */,
+				B68CE25D13527F5D006C178F /* open.png in Resources */,
+				B68CE26013527F72006C178F /* refresh.png in Resources */,
+				B68CE26113527F72006C178F /* search.png in Resources */,
+				B61300C5138257BD00209A4E /* Chinese Simplified.xml in Resources */,
+				B61300C6138257BD00209A4E /* English.xml in Resources */,
+				B6CC880613BABE0B00CEF557 /* OffLinePlay.xib in Resources */,
+				B6A0635413C16769002A303B /* rec_Alarm.png in Resources */,
+				B6A0635613C16775002A303B /* rec_Common.png in Resources */,
+				B6A0635D13C1681E002A303B /* rec_Play.png in Resources */,
+				B6A0635E13C1681E002A303B /* rec_Unknow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* PlayerDVRAppDelegate.m in Sources */,
+				B6C46672131B76AB00A05BBF /* Login.m in Sources */,
+				B654F3FE131C711800C4F007 /* AMBackground.m in Sources */,
+				B654F3FF131C711800C4F007 /* AMDarkButtonCell.m in Sources */,
+				B654F427131C946300C4F007 /* kt_core_handler.c in Sources */,
+				B654F428131C946300C4F007 /* kt_stream_playback.c in Sources */,
+				B654F4BD131CDF1D00C4F007 /* VideoPreview.m in Sources */,
+				B69C5306131DDACD000119B3 /* VideoController.m in Sources */,
+				B6B1DF26131FA03A0020DC91 /* CustomButton.m in Sources */,
+				B653A9FD132752C800AE96DE /* DvrSettingControl.m in Sources */,
+				B687C433132DA825005F97F2 /* UserManage.m in Sources */,
+				B687C436132DA95F005F97F2 /* DvrManage.m in Sources */,
+				B690395E1332E836004B35FC /* kt_util.c in Sources */,
+				B6903A191333079B004B35FC /* kt_user_manage.c in Sources */,
+				B6903A1C133307B5004B35FC /* kt_dvr_manage.c in Sources */,
+				B687DCC813389C02002E7E54 /* PlaybackController.m in Sources */,
+				B687DCCC13389CA4002E7E54 /* PlaybackSurface.m in Sources */,
+				B683B9A81340283500327CDE /* GridSelectView.m in Sources */,
+				B67F32D81341CE9200DF2E58 /* ScheduleView.m in Sources */,
+				B6805B0F13434FFB00E4CD55 /* MediaFileInfo.m in Sources */,
+				B68CCBF1134479F600761FF8 /* MediaFileController.m in Sources */,
+				B68CCC11134484C500761FF8 /* kt_file_manage.c in Sources */,
+				B68068C31345C97700B49BC5 /* PlaybackProcessBar.m in Sources */,
+				B61300BB1382579900209A4E /* kt_language_str.cpp in Sources */,
+				B61300BC1382579900209A4E /* kt_language_util.cpp in Sources */,
+				B61300BF1382579900209A4E /* tinystr.cpp in Sources */,
+				B61300C01382579900209A4E /* tinyxml.cpp in Sources */,
+				B61300C11382579900209A4E /* tinyxmlerror.cpp in Sources */,
+				B61300C21382579900209A4E /* tinyxmlparser.cpp in Sources */,
+				B6CC886113BAD31400CEF557 /* OffLinePlayController.m in Sources */,
+				B6CC88EA13BAFEE900CEF557 /* OffLineFileController.m in Sources */,
+				B6E4DF6B14BC1DFB00B87E56 /* KtEditFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B6A1698613932A2D00F53DA1 /* VideoPreview.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C46682131B7B6200A05BBF /* English */,
+			);
+			name = VideoPreview.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DVRPlayer_Prefix.pch;
+				INFOPLIST_FILE = "DVRPlayer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = DVRPlayer;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DVRPlayer_Prefix.pch;
+				INFOPLIST_FILE = "DVRPlayer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = DVRPlayer;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-L./shared/lib",
+					"-lPlayerCore",
+					"-I./shared/core/include",
+					"-I/Users/kongtop/mac/ffmepg_sdk/include",
+					"-L/Users/kongtop/mac/ffmepg_sdk",
+					"-L/Developer/usr/lib",
+					"-lavutil",
+					"-lavcodec",
+					"-lswscale",
+				);
+				OTHER_LDFLAGS = (
+					"-L./shared/lib",
+					"-lPlayerCore",
+					"-L/Users/kongtop/mac/ffmepg_sdk",
+					"-L/Developer/usr/lib",
+					"-lavutil",
+					"-lavcodec",
+					"-lswscale",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-L./shared/lib",
+					"-lPlayerCore",
+					"-I./shared/core/include",
+					"-I/Users/kongtop/mac/ffmepg_sdk/include",
+					"-L/Users/kongtop/mac/ffmepg_sdk",
+					"-L/Developer/usr/lib",
+					"-lavutil",
+					"-lavcodec",
+					"-lswscale",
+				);
+				OTHER_LDFLAGS = (
+					"-L./shared/lib",
+					"-lPlayerCore",
+					"-L/Users/kongtop/mac/ffmepg_sdk",
+					"-L/Developer/usr/lib",
+					"-lavutil",
+					"-lavcodec",
+					"-lswscale",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DVRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DVRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

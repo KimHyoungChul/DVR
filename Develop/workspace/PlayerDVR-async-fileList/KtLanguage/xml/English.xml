@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<_ENGLISH_>
+  <IDC_LOGIN_PAGE _name_="LOGIN PAGE">
+    <TITLE _name_="User Login" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <IPADDRESS _name_="IP Address:" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <MEDIAPORT _name_="Media Port:" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <PASSWORD _name_="Password:" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <NETWORK _name_="Network:" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <IDB_BMP_BUTTON1 _name_="Login" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <IDB_BMP_BUTTON2 _name_="Reset" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <MEDIAPORTERROR _name_="MediaPort Error!" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <LOGIN _name_="Login......" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <LOGINFAILED _name_="Login Failed!" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <LOGINSUCCESS _name_="Login Success!Initializing..." _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <LAN _name_="LAN" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <INTERNET _name_="INTERNET" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <LANGUAGE _name_="Language" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <IDC_BTN_LOGIN _name_="Login" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <IDC_BTN_RESET _name_="Reset" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    <IDC_BTN_OFFLINE _name_="Offline" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+  </IDC_LOGIN_PAGE>
+  <IDC_MAIN_PAGE _name_="MAIN PAGE">
+	<TITLE _name_="Video Preview" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <IDC_BTN_PLAYBACK _name_="Playback" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_SETUP _name_="Setup" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_LOGIN_OUT _name_="Logout" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <PLAYCONTROL _name_="Preview Control" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <PTZCONTROL _name_="PTZ Control" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="">
+      <ZOOM _name_="ZOOM" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+      <FOCUS _name_="FOCUS" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+      <IRIS _name_="IRIS" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    </PTZCONTROL>
+    <FULLSCREEN _name_="Full Screen" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <END_FULLSCREEN _name_="Exit Full Screen" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+  </IDC_MAIN_PAGE>
+  <IDC_PLAYBACK_PAGE _name_="PLAYBACK PAGE">
+    <TITLE _name_="Playback View" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <IDC_BTN_BACKUP _name_="BACKUP" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_LIST_PLAY _name_="PLAY" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_SEARCH _name_="Search" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_REFRESH _name_="Refresh" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_COMBO_SEARCH_CH _name_="selector channel" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20">
+      <CH _name_="CH" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+      <ALL _name_="ALL CHANNEL" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    </IDC_COMBO_SEARCH_CH>
+    <IDC_COMBO_SEARCH_TYPE _name_="selector type&#xD;&#xA;" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20">
+      <COMMON _name_="COMMON" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+      <ALARM _name_="ALARM" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+      <ALLTYPE _name_="ALL TYPE" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    </IDC_COMBO_SEARCH_TYPE>
+    <LIST_FILES _name_="FILE LIST" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="">
+      <SIZE _name_="SIZE" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+      <CHANNEL _name_="CHANNEL" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+      <TIME _name_="TIME" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    </LIST_FILES>
+    <IDC_BTN_ADD _name_="ADD" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_PLAY_OFFFILE _name_="PLAY" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_DEL_LIST _name_="DEL" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_EMPTY_LIST _name_="EMPTY" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDM_ADD_FILE _name_="ADD FILE" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDM_ADD_FOLDER _name_="ADD FOLDER" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+    <IDC_BTN_RETURN_LOGIN _name_="LOGIN" _font_="" _fontcolor_="" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+	<IDM_BTN_OPENFS _name_="Open" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />	
+	<IDM_TAB_ONLINE _name_="Online" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+	<IDM_TAB_HISTORY _name_="History" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />
+	<IDM_TAB_LOCAL _name_="Local" _font_="" _fontcolor_="0xffff" _x_="5" _y_="-5" _left_="true" _right_="false" _top_="false" _bottom_="true" _width_="80" _height_="20" />	
+	<IDC_LABEL_STARTTIME _name_="Start Time:" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_STOP _name_="Stop" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_NORMAL _name_="Normal" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_PAUSE _name_="Pause" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_FINISH _name_="Finish" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_STEP _name_="Step" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_NOSELECT _name_="No File" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_RECDAY _name_="Record Day:" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_LABEL_BACKUP _name_="Backup" _font_="test" _fontcolor_="0xffff"/>
+	
+  </IDC_PLAYBACK_PAGE>
+  <IDC_SETUP_PAGE _name_="SETUP PAGE">
+    <TITLE _name_="SETUP" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_RECORD _name_="Record" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_ALARM _name_="Alarm" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_EMAIL _name_="Email" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_PTZ _name_="PTZ" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_NETWORK _name_="Network" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_MANAGE _name_="Manage" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+	<IDM_TAB_INFO _name_="Info" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />	
+	<IDM_TAB_APPLY _name_="Apply" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />	
+	
+			
+    <IDC_SUBVIEW_RECORD _name_="RECORD" _y_="35" _font_="test" _fontcolor_="0xffff" _x_="20" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+        <IDC_STAT_RESOLUTION _name_="Resolution:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_STAT_PACKETLEN _name_="Packe Length:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_STAT_MODE _name_="Mode:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_STAT_CHANNELL _name_="Channel:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15"/>
+		<IDC_LABEL_SCHESETUP _name_="Schedule setup" _font_="test" _fontcolor_="0xffff"/>				
+		<IDC_RADIO_RESD1 _name_="D1" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_RESHD1 _name_="HD1" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_RESCIF _name_="CIF" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_QUALITY _name_="Quality:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_QUALITY_BEST _name_="BEST" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_QUALITY_FINE _name_="BETTER" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_QUALITY_NORMAL _name_="GOOD" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_AUDIO _name_="Audio" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_AUDIO_OPEN _name_="ON" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_AUDIO_CLOSE _name_="OFF" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_RECMODE _name_="MODE" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_RECMODE_POWERUP _name_="POWER ON" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_RECMODE_TIMED _name_="TIMED" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_ALARMREC _name_="Alarm" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_NORMALREC _name_="Record" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_RADIO_NOREC _name_="NO Record" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_RADIO_15MIN _name_="15Min" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_RADIO_30MIN _name_="30Min" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_RADIO_45MIN _name_="45Min" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_RADIO_60MIN _name_="60Min" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_BTN_DEFAULT _name_="DEFAULT" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_APPLY _name_="APPLY" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_SUNDAY _name_="S" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_MONDAY _name_="M" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_TUESDAY _name_="T" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_WEDNESDAY _name_="W" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_THURSDAY _name_="T" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_FRIDAY _name_="F" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_SATURDAY _name_="S" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_STAT_APPLY _name_="Apply" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15"/>		
+        <ALL _name_="ALL" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    </IDC_SUBVIEW_RECORD>
+    <IDC_SUBVIEW_ALARM _name_="ALARM" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+		<IDC_LABEL_CHANNELL _name_="Channel:"/>
+		<IDC_LABEL_IOALARM _name_="I/O Alarm:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_MOTIONDETECT _name_="Motion Detect:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_MOTION_STATUS _name_="STATUS" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_MOTION_SENS _name_="Sensitivity:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_MOTION_CLEAR _name_="Clear" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_DEFAULT _name_="DEFAULT" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_APPLY _name_="APPLY" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IOALARM_NO _name_="NO" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IOALARM_OFF _name_="OFF" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IOALARM_NC _name_="NC" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <STATUS_ON _name_="ON" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <STATUS_OFF _name_="OFF" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_MDAERA _name_="MD AERA" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<ALL _name_="ALL" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_STAT_ALARMSTAT _name_="ALARM STATUS" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_VIDEOLOSS _name_="Video Loss:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_HDDSPACE _name_="HDD Space:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_HDDLOSS _name_="HDD Loss:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_STAT_ALARM_MANAGE _name_="ALARM MANAGE" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_OUTPUT _name_="Output:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_BUZZER _name_="Buzzer:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_POSTREC _name_="Post Rec:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<ZERO_S _name_="0s" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<TEN_S _name_="10s" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<TWENTY_S _name_="20s" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<FORTY_S _name_="40s" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<SIXTY_S _name_="60s" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<THIRTY_S _name_="30s" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<ONE_MIN _name_="1Min" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<TWO_MIN _name_="2Min" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<FIVE_MIN _name_="5Min" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    </IDC_SUBVIEW_ALARM>
+	<IDC_SUBVIEW_EMAIL _name_="Email" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+		<IDC_LABEL_STATUS _name_="Status:" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_SSL _name_="SSL:" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_SMTPPORT _name_="Smtp Port:" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_SMTPSERVER _name_="Smtp Server:" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_SENDMAIL _name_="Send Email:" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_SENDPASSWORD _name_="Send Password:" _font_="test" _fontcolor_="0xffff"/>
+		<IDC_LABEL_RECVMAIL _name_="Recv Email:" _font_="test" _fontcolor_="0xffff"/>
+	</IDC_SUBVIEW_EMAIL>
+	<IDC_SUBVIEW_PTZ _name_="PTZ" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+        <IDC_LABEL_PROTOCOL _name_="Protocol:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_ADDRESS _name_="Address:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_BAUDRATE _name_="Buad Rate:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_DATABIT _name_="Data Bit:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_STOPBIT _name_="Stop Bit:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_VERIFY _name_="Verity:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_DEFAULT _name_="DEFAULT" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_APPLY _name_="APPLY" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <VERIFY_NONE _name_="NONE" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <VERIFY_ODD _name_="ODD" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <VERIFY_EVEN _name_="EVEN" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <VERIFY_MARK _name_="MARK" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <VERIFY_SPACE _name_="SPACE" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_STAT_RECORD _name_="RECORD" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15"/>
+		<ALL _name_="ALL" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    </IDC_SUBVIEW_PTZ>
+    <IDC_SUBVIEW_NETWORK _name_="NETWORK" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+        <IDC_LABEL_TYPE _name_="Type:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_MEDIAPORT _name_="Media Port:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_WEBPORT _name_="WEB Port:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_MOBILEPORT _name_="Mobile Port:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_BITRATE _name_="Internet Bitrate:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_IPADDR _name_="IP Address:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_NETMASK _name_="Subnet Mask:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_GATEWAY _name_="Gateway:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_DNS _name_="DNS:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_DEFAULT _name_="DEFAULT" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_APPLY _name_="APPLY" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_PPPOENAME _name_="User Name:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_PPPOEPWD _name_="Password:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <TYPE_LABEL_STATIC _name_="STATIC" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_DDNSSTATUS _name_="Status:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_DNSSSERVICE _name_="Service:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_DNSSHOSTNAME _name_="Host Name:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_USERNAME _name_="User Name:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_PASSWORD _name_="Password:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <STATUS_ON _name_="ON" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <STATUS_OFF _name_="OFF" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    </IDC_SUBVIEW_NETWORK>
+    <IDC_SUBVIEW_MANAGE _name_="SETTING" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15">
+        <IDC_STAT_BANDWIDTH _name_="INTERNET" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_STAT_FILEPATH _name_="FILE SAVE PATH" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_IEPWDENABLE _name_="IE Password:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_DVRPWDENABLE _name_="DVR Password:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+		<IDC_LABEL_USERPWD _name_="User Password:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_USRREENTER _name_="RE-ENTER" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_ADMINPWD _name_="Admin Password:" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_LABEL_ADMINREENTER _name_="RE-ENTER" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_DEFAULT _name_="DEFAULT" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IDC_BTN_APPLY _name_="APPLY" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IEPWDENABLE_ON _name_="ON" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+        <IEPWDENABLE_OFF _name_="OFF" _font_="test" _fontcolor_="0xffff" _x_="20" _y_="35" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="30" _height_="15" />
+    </IDC_SUBVIEW_MANAGE>
+    <IDC_SUBVIEW_HOSTINFO _name_="INFO" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="">
+        <IDC_STAT_HDDSTATUS _name_="HDD Status:" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+        <IDC_STAT_HDD _name_="HDD(ALL/FREE):" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<IDC_STAT_SERIALNUM _name_="Serial Number:" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+		<IDC_STAT_AVAILABLETIME _name_="AVAILABLE TIME" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+        <IDC_STAT_DVRSOFTVERSION _name_="Software Version:" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+        <IDC_STAT_MACADDRESS _name_="MAC Address:" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+        <HOUR _name_="HOUR" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+        <IDC_STAT_CLIENTVERSION _name_="SOFT VERSION" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+        <IDC_STAT_FILEVERSION _name_="FILE VERSION" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    </IDC_SUBVIEW_HOSTINFO>
+  </IDC_SETUP_PAGE>
+  <IDC_PROMPT _name_="PROMPT">
+    <OTHER_USER_CONFIGURING _name_="Other User Configuring..." _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <PLAYBACK _name_="PlayBack" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <DOWNLOAD_PROC_IS_RUNNING _name_="DownLoad Proc is running" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <BACKUP _name_="BACKUP" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <STOP _name_="STOP" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <FILE_HAS_BEEN_BACKED_UP _name_="File has been backed up!File Path:" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <CREATEFILE_FAILED _name_="CreateFile Failed" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <STEP _name_="Step" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <PAUSE _name_="Pause" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <CONFIG_SUCCESS _name_="Config Success!" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <CONFIG_FAILED _name_="Config Failed!Error Code 0x%08x" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <SETUP _name_="SetUp" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <USERNAME_PASSWORD_INCONSISTENT _name_="UserName and password inconsistent" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <SAVE_SUCCESS _name_="SAVE SUCCESS!SAVE PATH:" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <DOWNLOAD_FAILED _name_="DownLoad Failed!" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <OTHER_CONFIGURING _name_="Other User Configuring" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <OTHER_USER_DOWNLOADING_NOW _name_="Other User Downloading Now" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <BACKUP_SUCCESS _name_="BackUp Success!Save Path:" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <STOP_BACKUP_SUCCESS _name_="Stop BackUp Success!" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <BACKUP_FAILED _name_="BackUp Failed!Error Code:" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <STOP_PLAY_BEFORE_REMOVE _name_="Please stop play!" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_="" />
+    <NO_NEED_SAVE _name_="No change,no need save!" _font_="" _fontcolor_="" _x_="" _y_="" _left_="true" _right_="false" _top_="true" _bottom_="false" _width_="" _height_=""></NO_NEED_SAVE>
+  </IDC_PROMPT>
+  <IDC_INFORMATION>
+	<IDC_STRING_LOGINSUCCESS _name_="Login success!" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_STRING_LOGINFAIL _name_="Login fail!" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_STRING_PARAMSETUPSUCCESS _name_="Set DVR parameters success!" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_STRING_PARAMSETUPFAIL _name_="Set DVR parameters fail!" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_STRING_NORECTHISMONTH _name_="No Record at this month!" _font_="test" _fontcolor_="0xffff"/>
+  </IDC_INFORMATION>
+  <IDC_GOLBAL>
+	<IDC_ALLCHANNEL _name_="All Channel" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_STARTTIME _name_="Start Time" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_CHANNEL _name_="Channel" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_SIZE _name_="Size" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_RECCOMMON _name_="Common" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_RECALARM _name_="Alarm" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_RECALLTYPE _name_="All Type" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_OPEN _name_="ON" _font_="test" _fontcolor_="0xffff"/>
+	<IDC_CLOSE _name_="OFF" _font_="test" _fontcolor_="0xffff"/>
+  </IDC_GOLBAL>
+</_ENGLISH_>

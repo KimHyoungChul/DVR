@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6E4BA0114E4F5D800B5B7EF /* AudioStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9B514E4F5D800B5B7EF /* AudioStream.cpp */; };
+		B6E4BA0214E4F5D800B5B7EF /* AudioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9B614E4F5D800B5B7EF /* AudioStream.h */; };
+		B6E4BA0414E4F5D800B5B7EF /* common_dump.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9B814E4F5D800B5B7EF /* common_dump.h */; };
+		B6E4BA0514E4F5D800B5B7EF /* DeviceStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9B914E4F5D800B5B7EF /* DeviceStream.cpp */; };
+		B6E4BA0614E4F5D800B5B7EF /* DeviceStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9BA14E4F5D800B5B7EF /* DeviceStream.h */; };
+		B6E4BA0814E4F5D800B5B7EF /* DVRSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9BC14E4F5D800B5B7EF /* DVRSocket.cpp */; };
+		B6E4BA0914E4F5D800B5B7EF /* DVRSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9BD14E4F5D800B5B7EF /* DVRSocket.h */; };
+		B6E4BA0B14E4F5D800B5B7EF /* DvrSpeech.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9BF14E4F5D800B5B7EF /* DvrSpeech.cpp */; };
+		B6E4BA0C14E4F5D800B5B7EF /* DvrSpeech.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9C014E4F5D800B5B7EF /* DvrSpeech.h */; };
+		B6E4BA0E14E4F5D800B5B7EF /* Dvs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9C214E4F5D800B5B7EF /* Dvs.cpp */; };
+		B6E4BA0F14E4F5D800B5B7EF /* Dvs.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9C314E4F5D800B5B7EF /* Dvs.h */; };
+		B6E4BA1114E4F5D800B5B7EF /* DvsPro16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9C514E4F5D800B5B7EF /* DvsPro16.cpp */; };
+		B6E4BA1214E4F5D800B5B7EF /* DvsPro16.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9C614E4F5D800B5B7EF /* DvsPro16.h */; };
+		B6E4BA1414E4F5D800B5B7EF /* DvssDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9C814E4F5D800B5B7EF /* DvssDefine.h */; };
+		B6E4BA1514E4F5D800B5B7EF /* DvssNet.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9C914E4F5D800B5B7EF /* DvssNet.h */; };
+		B6E4BA1614E4F5D800B5B7EF /* Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9CA14E4F5D800B5B7EF /* Event.cpp */; };
+		B6E4BA1714E4F5D800B5B7EF /* Event.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9CB14E4F5D800B5B7EF /* Event.h */; };
+		B6E4BA1914E4F5D800B5B7EF /* Global.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9CD14E4F5D800B5B7EF /* Global.cpp */; };
+		B6E4BA1A14E4F5D800B5B7EF /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9CE14E4F5D800B5B7EF /* Global.h */; };
+		B6E4BA1D14E4F5D800B5B7EF /* LocalFilePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9D114E4F5D800B5B7EF /* LocalFilePlayer.cpp */; };
+		B6E4BA1E14E4F5D800B5B7EF /* LocalFilePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9D214E4F5D800B5B7EF /* LocalFilePlayer.h */; };
+		B6E4BA2014E4F5D800B5B7EF /* Lock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9D414E4F5D800B5B7EF /* Lock.cpp */; };
+		B6E4BA2114E4F5D800B5B7EF /* Lock.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9D514E4F5D800B5B7EF /* Lock.h */; };
+		B6E4BA2314E4F5D800B5B7EF /* macro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9D714E4F5D800B5B7EF /* macro.cpp */; };
+		B6E4BA2414E4F5D800B5B7EF /* macro.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9D814E4F5D800B5B7EF /* macro.h */; };
+		B6E4BA2514E4F5D800B5B7EF /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9D914E4F5D800B5B7EF /* makefile */; };
+		B6E4BA2614E4F5D800B5B7EF /* NetDvrApi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9DA14E4F5D800B5B7EF /* NetDvrApi.cpp */; };
+		B6E4BA2714E4F5D800B5B7EF /* NetDvrApi.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9DB14E4F5D800B5B7EF /* NetDvrApi.h */; };
+		B6E4BA2914E4F5D800B5B7EF /* PESPacketHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9DD14E4F5D800B5B7EF /* PESPacketHead.cpp */; };
+		B6E4BA2A14E4F5D800B5B7EF /* PESPacketHead.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9DE14E4F5D800B5B7EF /* PESPacketHead.h */; };
+		B6E4BA2C14E4F5D800B5B7EF /* PSFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9E014E4F5D800B5B7EF /* PSFile.cpp */; };
+		B6E4BA2D14E4F5D800B5B7EF /* PSFile.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9E114E4F5D800B5B7EF /* PSFile.h */; };
+		B6E4BA2F14E4F5D800B5B7EF /* PSWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9E314E4F5D800B5B7EF /* PSWriter.cpp */; };
+		B6E4BA3014E4F5D800B5B7EF /* PSWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9E414E4F5D800B5B7EF /* PSWriter.h */; };
+		B6E4BA3214E4F5D800B5B7EF /* RemoteConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9E614E4F5D800B5B7EF /* RemoteConfig.cpp */; };
+		B6E4BA3314E4F5D800B5B7EF /* RemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9E714E4F5D800B5B7EF /* RemoteConfig.h */; };
+		B6E4BA3514E4F5D800B5B7EF /* RemoteFilePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9E914E4F5D800B5B7EF /* RemoteFilePlayer.cpp */; };
+		B6E4BA3614E4F5D800B5B7EF /* RemoteFilePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9EA14E4F5D800B5B7EF /* RemoteFilePlayer.h */; };
+		B6E4BA3814E4F5D800B5B7EF /* RemotePSFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9EC14E4F5D800B5B7EF /* RemotePSFile.cpp */; };
+		B6E4BA3914E4F5D800B5B7EF /* RemotePSFile.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9ED14E4F5D800B5B7EF /* RemotePSFile.h */; };
+		B6E4BA3B14E4F5D800B5B7EF /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9EF14E4F5D800B5B7EF /* resource.h */; };
+		B6E4BA3C14E4F5D800B5B7EF /* SpeechFifo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9F014E4F5D800B5B7EF /* SpeechFifo.cpp */; };
+		B6E4BA3D14E4F5D800B5B7EF /* SpeechFifo.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9F114E4F5D800B5B7EF /* SpeechFifo.h */; };
+		B6E4BA3F14E4F5D800B5B7EF /* SpeechSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9F314E4F5D800B5B7EF /* SpeechSocket.cpp */; };
+		B6E4BA4014E4F5D800B5B7EF /* SpeechSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9F414E4F5D800B5B7EF /* SpeechSocket.h */; };
+		B6E4BA4214E4F5D800B5B7EF /* StreamFifo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9F614E4F5D800B5B7EF /* StreamFifo.cpp */; };
+		B6E4BA4314E4F5D800B5B7EF /* StreamFifo.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9F714E4F5D800B5B7EF /* StreamFifo.h */; };
+		B6E4BA4514E4F5D800B5B7EF /* StreamSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9F914E4F5D800B5B7EF /* StreamSocket.cpp */; };
+		B6E4BA4614E4F5D800B5B7EF /* StreamSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9FA14E4F5D800B5B7EF /* StreamSocket.h */; };
+		B6E4BA4814E4F5D800B5B7EF /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9FC14E4F5D800B5B7EF /* test.cpp */; };
+		B6E4BA4914E4F5D800B5B7EF /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E4B9FD14E4F5D800B5B7EF /* Thread.cpp */; };
+		B6E4BA4A14E4F5D800B5B7EF /* Thread.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4B9FE14E4F5D800B5B7EF /* Thread.h */; };
+		B6E4BA4C14E4F5D800B5B7EF /* VersionDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E4BA0014E4F5D800B5B7EF /* VersionDefine.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6E4B9B514E4F5D800B5B7EF /* AudioStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioStream.cpp; sourceTree = "<group>"; };
+		B6E4B9B614E4F5D800B5B7EF /* AudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStream.h; sourceTree = "<group>"; };
+		B6E4B9B814E4F5D800B5B7EF /* common_dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common_dump.h; sourceTree = "<group>"; };
+		B6E4B9B914E4F5D800B5B7EF /* DeviceStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeviceStream.cpp; sourceTree = "<group>"; };
+		B6E4B9BA14E4F5D800B5B7EF /* DeviceStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceStream.h; sourceTree = "<group>"; };
+		B6E4B9BC14E4F5D800B5B7EF /* DVRSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DVRSocket.cpp; sourceTree = "<group>"; };
+		B6E4B9BD14E4F5D800B5B7EF /* DVRSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVRSocket.h; sourceTree = "<group>"; };
+		B6E4B9BF14E4F5D800B5B7EF /* DvrSpeech.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DvrSpeech.cpp; sourceTree = "<group>"; };
+		B6E4B9C014E4F5D800B5B7EF /* DvrSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvrSpeech.h; sourceTree = "<group>"; };
+		B6E4B9C214E4F5D800B5B7EF /* Dvs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dvs.cpp; sourceTree = "<group>"; };
+		B6E4B9C314E4F5D800B5B7EF /* Dvs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dvs.h; sourceTree = "<group>"; };
+		B6E4B9C514E4F5D800B5B7EF /* DvsPro16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DvsPro16.cpp; sourceTree = "<group>"; };
+		B6E4B9C614E4F5D800B5B7EF /* DvsPro16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvsPro16.h; sourceTree = "<group>"; };
+		B6E4B9C814E4F5D800B5B7EF /* DvssDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvssDefine.h; sourceTree = "<group>"; };
+		B6E4B9C914E4F5D800B5B7EF /* DvssNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvssNet.h; sourceTree = "<group>"; };
+		B6E4B9CA14E4F5D800B5B7EF /* Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Event.cpp; sourceTree = "<group>"; };
+		B6E4B9CB14E4F5D800B5B7EF /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		B6E4B9CD14E4F5D800B5B7EF /* Global.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Global.cpp; sourceTree = "<group>"; };
+		B6E4B9CE14E4F5D800B5B7EF /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		B6E4B9D114E4F5D800B5B7EF /* LocalFilePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalFilePlayer.cpp; sourceTree = "<group>"; };
+		B6E4B9D214E4F5D800B5B7EF /* LocalFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalFilePlayer.h; sourceTree = "<group>"; };
+		B6E4B9D414E4F5D800B5B7EF /* Lock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lock.cpp; sourceTree = "<group>"; };
+		B6E4B9D514E4F5D800B5B7EF /* Lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lock.h; sourceTree = "<group>"; };
+		B6E4B9D714E4F5D800B5B7EF /* macro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = macro.cpp; sourceTree = "<group>"; };
+		B6E4B9D814E4F5D800B5B7EF /* macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		B6E4B9D914E4F5D800B5B7EF /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		B6E4B9DA14E4F5D800B5B7EF /* NetDvrApi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetDvrApi.cpp; sourceTree = "<group>"; };
+		B6E4B9DB14E4F5D800B5B7EF /* NetDvrApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetDvrApi.h; sourceTree = "<group>"; };
+		B6E4B9DD14E4F5D800B5B7EF /* PESPacketHead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PESPacketHead.cpp; sourceTree = "<group>"; };
+		B6E4B9DE14E4F5D800B5B7EF /* PESPacketHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PESPacketHead.h; sourceTree = "<group>"; };
+		B6E4B9E014E4F5D800B5B7EF /* PSFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PSFile.cpp; sourceTree = "<group>"; };
+		B6E4B9E114E4F5D800B5B7EF /* PSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFile.h; sourceTree = "<group>"; };
+		B6E4B9E314E4F5D800B5B7EF /* PSWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PSWriter.cpp; sourceTree = "<group>"; };
+		B6E4B9E414E4F5D800B5B7EF /* PSWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWriter.h; sourceTree = "<group>"; };
+		B6E4B9E614E4F5D800B5B7EF /* RemoteConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoteConfig.cpp; sourceTree = "<group>"; };
+		B6E4B9E714E4F5D800B5B7EF /* RemoteConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteConfig.h; sourceTree = "<group>"; };
+		B6E4B9E914E4F5D800B5B7EF /* RemoteFilePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoteFilePlayer.cpp; sourceTree = "<group>"; };
+		B6E4B9EA14E4F5D800B5B7EF /* RemoteFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteFilePlayer.h; sourceTree = "<group>"; };
+		B6E4B9EC14E4F5D800B5B7EF /* RemotePSFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemotePSFile.cpp; sourceTree = "<group>"; };
+		B6E4B9ED14E4F5D800B5B7EF /* RemotePSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemotePSFile.h; sourceTree = "<group>"; };
+		B6E4B9EF14E4F5D800B5B7EF /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		B6E4B9F014E4F5D800B5B7EF /* SpeechFifo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpeechFifo.cpp; sourceTree = "<group>"; };
+		B6E4B9F114E4F5D800B5B7EF /* SpeechFifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechFifo.h; sourceTree = "<group>"; };
+		B6E4B9F314E4F5D800B5B7EF /* SpeechSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpeechSocket.cpp; sourceTree = "<group>"; };
+		B6E4B9F414E4F5D800B5B7EF /* SpeechSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSocket.h; sourceTree = "<group>"; };
+		B6E4B9F614E4F5D800B5B7EF /* StreamFifo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StreamFifo.cpp; sourceTree = "<group>"; };
+		B6E4B9F714E4F5D800B5B7EF /* StreamFifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamFifo.h; sourceTree = "<group>"; };
+		B6E4B9F914E4F5D800B5B7EF /* StreamSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StreamSocket.cpp; sourceTree = "<group>"; };
+		B6E4B9FA14E4F5D800B5B7EF /* StreamSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamSocket.h; sourceTree = "<group>"; };
+		B6E4B9FC14E4F5D800B5B7EF /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		B6E4B9FD14E4F5D800B5B7EF /* Thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Thread.cpp; sourceTree = "<group>"; };
+		B6E4B9FE14E4F5D800B5B7EF /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		B6E4BA0014E4F5D800B5B7EF /* VersionDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionDefine.h; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libDVSCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDVSCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* DVSCore */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = DVSCore;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B6E4B9B414E4F5D800B5B7EF /* src */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libDVSCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E4B9B414E4F5D800B5B7EF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B6E4B9B514E4F5D800B5B7EF /* AudioStream.cpp */,
+				B6E4B9B614E4F5D800B5B7EF /* AudioStream.h */,
+				B6E4B9B814E4F5D800B5B7EF /* common_dump.h */,
+				B6E4B9B914E4F5D800B5B7EF /* DeviceStream.cpp */,
+				B6E4B9BA14E4F5D800B5B7EF /* DeviceStream.h */,
+				B6E4B9BC14E4F5D800B5B7EF /* DVRSocket.cpp */,
+				B6E4B9BD14E4F5D800B5B7EF /* DVRSocket.h */,
+				B6E4B9BF14E4F5D800B5B7EF /* DvrSpeech.cpp */,
+				B6E4B9C014E4F5D800B5B7EF /* DvrSpeech.h */,
+				B6E4B9C214E4F5D800B5B7EF /* Dvs.cpp */,
+				B6E4B9C314E4F5D800B5B7EF /* Dvs.h */,
+				B6E4B9C514E4F5D800B5B7EF /* DvsPro16.cpp */,
+				B6E4B9C614E4F5D800B5B7EF /* DvsPro16.h */,
+				B6E4B9C814E4F5D800B5B7EF /* DvssDefine.h */,
+				B6E4B9C914E4F5D800B5B7EF /* DvssNet.h */,
+				B6E4B9CA14E4F5D800B5B7EF /* Event.cpp */,
+				B6E4B9CB14E4F5D800B5B7EF /* Event.h */,
+				B6E4B9CD14E4F5D800B5B7EF /* Global.cpp */,
+				B6E4B9CE14E4F5D800B5B7EF /* Global.h */,
+				B6E4B9D114E4F5D800B5B7EF /* LocalFilePlayer.cpp */,
+				B6E4B9D214E4F5D800B5B7EF /* LocalFilePlayer.h */,
+				B6E4B9D414E4F5D800B5B7EF /* Lock.cpp */,
+				B6E4B9D514E4F5D800B5B7EF /* Lock.h */,
+				B6E4B9D714E4F5D800B5B7EF /* macro.cpp */,
+				B6E4B9D814E4F5D800B5B7EF /* macro.h */,
+				B6E4B9D914E4F5D800B5B7EF /* makefile */,
+				B6E4B9DA14E4F5D800B5B7EF /* NetDvrApi.cpp */,
+				B6E4B9DB14E4F5D800B5B7EF /* NetDvrApi.h */,
+				B6E4B9DD14E4F5D800B5B7EF /* PESPacketHead.cpp */,
+				B6E4B9DE14E4F5D800B5B7EF /* PESPacketHead.h */,
+				B6E4B9E014E4F5D800B5B7EF /* PSFile.cpp */,
+				B6E4B9E114E4F5D800B5B7EF /* PSFile.h */,
+				B6E4B9E314E4F5D800B5B7EF /* PSWriter.cpp */,
+				B6E4B9E414E4F5D800B5B7EF /* PSWriter.h */,
+				B6E4B9E614E4F5D800B5B7EF /* RemoteConfig.cpp */,
+				B6E4B9E714E4F5D800B5B7EF /* RemoteConfig.h */,
+				B6E4B9E914E4F5D800B5B7EF /* RemoteFilePlayer.cpp */,
+				B6E4B9EA14E4F5D800B5B7EF /* RemoteFilePlayer.h */,
+				B6E4B9EC14E4F5D800B5B7EF /* RemotePSFile.cpp */,
+				B6E4B9ED14E4F5D800B5B7EF /* RemotePSFile.h */,
+				B6E4B9EF14E4F5D800B5B7EF /* resource.h */,
+				B6E4B9F014E4F5D800B5B7EF /* SpeechFifo.cpp */,
+				B6E4B9F114E4F5D800B5B7EF /* SpeechFifo.h */,
+				B6E4B9F314E4F5D800B5B7EF /* SpeechSocket.cpp */,
+				B6E4B9F414E4F5D800B5B7EF /* SpeechSocket.h */,
+				B6E4B9F614E4F5D800B5B7EF /* StreamFifo.cpp */,
+				B6E4B9F714E4F5D800B5B7EF /* StreamFifo.h */,
+				B6E4B9F914E4F5D800B5B7EF /* StreamSocket.cpp */,
+				B6E4B9FA14E4F5D800B5B7EF /* StreamSocket.h */,
+				B6E4B9FC14E4F5D800B5B7EF /* test.cpp */,
+				B6E4B9FD14E4F5D800B5B7EF /* Thread.cpp */,
+				B6E4B9FE14E4F5D800B5B7EF /* Thread.h */,
+				B6E4BA0014E4F5D800B5B7EF /* VersionDefine.h */,
+			);
+			name = src;
+			path = ../MACSDK_Demo/src;
+			sourceTree = SOURCE_ROOT;
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E4BA0214E4F5D800B5B7EF /* AudioStream.h in Headers */,
+				B6E4BA0414E4F5D800B5B7EF /* common_dump.h in Headers */,
+				B6E4BA0614E4F5D800B5B7EF /* DeviceStream.h in Headers */,
+				B6E4BA0914E4F5D800B5B7EF /* DVRSocket.h in Headers */,
+				B6E4BA0C14E4F5D800B5B7EF /* DvrSpeech.h in Headers */,
+				B6E4BA0F14E4F5D800B5B7EF /* Dvs.h in Headers */,
+				B6E4BA1214E4F5D800B5B7EF /* DvsPro16.h in Headers */,
+				B6E4BA1414E4F5D800B5B7EF /* DvssDefine.h in Headers */,
+				B6E4BA1514E4F5D800B5B7EF /* DvssNet.h in Headers */,
+				B6E4BA1714E4F5D800B5B7EF /* Event.h in Headers */,
+				B6E4BA1A14E4F5D800B5B7EF /* Global.h in Headers */,
+				B6E4BA1E14E4F5D800B5B7EF /* LocalFilePlayer.h in Headers */,
+				B6E4BA2114E4F5D800B5B7EF /* Lock.h in Headers */,
+				B6E4BA2414E4F5D800B5B7EF /* macro.h in Headers */,
+				B6E4BA2714E4F5D800B5B7EF /* NetDvrApi.h in Headers */,
+				B6E4BA2A14E4F5D800B5B7EF /* PESPacketHead.h in Headers */,
+				B6E4BA2D14E4F5D800B5B7EF /* PSFile.h in Headers */,
+				B6E4BA3014E4F5D800B5B7EF /* PSWriter.h in Headers */,
+				B6E4BA3314E4F5D800B5B7EF /* RemoteConfig.h in Headers */,
+				B6E4BA3614E4F5D800B5B7EF /* RemoteFilePlayer.h in Headers */,
+				B6E4BA3914E4F5D800B5B7EF /* RemotePSFile.h in Headers */,
+				B6E4BA3B14E4F5D800B5B7EF /* resource.h in Headers */,
+				B6E4BA3D14E4F5D800B5B7EF /* SpeechFifo.h in Headers */,
+				B6E4BA4014E4F5D800B5B7EF /* SpeechSocket.h in Headers */,
+				B6E4BA4314E4F5D800B5B7EF /* StreamFifo.h in Headers */,
+				B6E4BA4614E4F5D800B5B7EF /* StreamSocket.h in Headers */,
+				B6E4BA4A14E4F5D800B5B7EF /* Thread.h in Headers */,
+				B6E4BA4C14E4F5D800B5B7EF /* VersionDefine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* DVSCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "DVSCore" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVSCore;
+			productName = DVSCore;
+			productReference = D2AAC046055464E500DB518D /* libDVSCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "DVSCore" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* DVSCore */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* DVSCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E4BA0114E4F5D800B5B7EF /* AudioStream.cpp in Sources */,
+				B6E4BA0514E4F5D800B5B7EF /* DeviceStream.cpp in Sources */,
+				B6E4BA0814E4F5D800B5B7EF /* DVRSocket.cpp in Sources */,
+				B6E4BA0B14E4F5D800B5B7EF /* DvrSpeech.cpp in Sources */,
+				B6E4BA0E14E4F5D800B5B7EF /* Dvs.cpp in Sources */,
+				B6E4BA1114E4F5D800B5B7EF /* DvsPro16.cpp in Sources */,
+				B6E4BA1614E4F5D800B5B7EF /* Event.cpp in Sources */,
+				B6E4BA1914E4F5D800B5B7EF /* Global.cpp in Sources */,
+				B6E4BA1D14E4F5D800B5B7EF /* LocalFilePlayer.cpp in Sources */,
+				B6E4BA2014E4F5D800B5B7EF /* Lock.cpp in Sources */,
+				B6E4BA2314E4F5D800B5B7EF /* macro.cpp in Sources */,
+				B6E4BA2514E4F5D800B5B7EF /* makefile in Sources */,
+				B6E4BA2614E4F5D800B5B7EF /* NetDvrApi.cpp in Sources */,
+				B6E4BA2914E4F5D800B5B7EF /* PESPacketHead.cpp in Sources */,
+				B6E4BA2C14E4F5D800B5B7EF /* PSFile.cpp in Sources */,
+				B6E4BA2F14E4F5D800B5B7EF /* PSWriter.cpp in Sources */,
+				B6E4BA3214E4F5D800B5B7EF /* RemoteConfig.cpp in Sources */,
+				B6E4BA3514E4F5D800B5B7EF /* RemoteFilePlayer.cpp in Sources */,
+				B6E4BA3814E4F5D800B5B7EF /* RemotePSFile.cpp in Sources */,
+				B6E4BA3C14E4F5D800B5B7EF /* SpeechFifo.cpp in Sources */,
+				B6E4BA3F14E4F5D800B5B7EF /* SpeechSocket.cpp in Sources */,
+				B6E4BA4214E4F5D800B5B7EF /* StreamFifo.cpp in Sources */,
+				B6E4BA4514E4F5D800B5B7EF /* StreamSocket.cpp in Sources */,
+				B6E4BA4814E4F5D800B5B7EF /* test.cpp in Sources */,
+				B6E4BA4914E4F5D800B5B7EF /* Thread.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../MACSDK_Demo/src\"",
+				);
+				PRODUCT_NAME = DVSCore;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../MACSDK_Demo/src\"",
+				);
+				PRODUCT_NAME = DVSCore;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "DVSCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "DVSCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
